@@ -1,0 +1,16 @@
+data
+*.pyc
+*/*.pyc
+*/*/*.pyc
+.*.swp
+*.pth.tar
+*.png
+test_utils/Generate_*.sh
+./cache_data/*.lst
+Temp*.sh
+cache_data/lists
+snapshots
+cache_data/challenging.pdf
+cache_data/common.pdf
+cache_data/full.pdf
+cache_data/cache/
