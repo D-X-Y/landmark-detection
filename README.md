@@ -5,12 +5,12 @@ This project contains several landmark detection algorithms, implemented in [PyT
 
 ## Style Aggregated Network for Facial Landmark Detection
 
-The training and testing codes for [SAN (CVPR 2018)](https://xuanyidong.com/publication/cvpr-2018-san/) are located in the [SAN directory](https://github.com/D-X-Y/landmark-detection/SAN).
+The training and testing codes for [SAN (CVPR 2018)](https://xuanyidong.com/publication/cvpr-2018-san/) are located in the [SAN directory](https://github.com/D-X-Y/landmark-detection/tree/master/SAN).
 
 
 ## Supervision-by-Registration: An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors
 
-The training and testing codes for [Supervision-by-Registration (CVPR 2018)](https://xuanyidong.com/publication/cvpr-2018-sbr/) are located in the [SBR directory](https://github.com/D-X-Y/landmark-detection/SBR).
+The training and testing codes for [Supervision-by-Registration (CVPR 2018)](https://xuanyidong.com/publication/cvpr-2018-sbr/) are located in the [SBR directory](https://github.com/D-X-Y/landmark-detection/tree/master/SBR).
 
 
 ## Citation
