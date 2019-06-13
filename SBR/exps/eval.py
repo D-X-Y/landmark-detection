@@ -40,7 +40,6 @@ def evaluate(args):
                                       std=[0.229, 0.224, 0.225])
 
   param = snapshot['args']
-  import pdb; pdb.set_trace()
   eval_transform  = transforms.Compose([transforms.PreCrop(param.pre_crop_expand), transforms.TrainScale2WH((param.crop_width, param.crop_height)), transforms.ToTensor(), normalize])
   model_config = load_configure(param.model_config, None)
   dataset = Dataset(eval_transform, param.sigma, model_config.downsample, param.heatmap_type, param.data_indicator)
@@ -48,7 +47,11 @@ def evaluate(args):
   
   net = obtain_model(model_config, param.num_pts + 1)
   net = net.cuda()
-  weights = remove_module_dict(snapshot['detector'])
+  #import pdb; pdb.set_trace()
+  try:
+    weights = remove_module_dict(snapshot['detector'])
+  except:
+    weights = remove_module_dict(snapshot['state_dict'])
   net.load_state_dict(weights)
   print ('Prepare input data')
   [image, _, _, _, _, _, cropped_size], meta = dataset.prepare_input(args.image, args.face)
