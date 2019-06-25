@@ -17,6 +17,7 @@ if sys.version_info.major == 2:
 else:
   import pickle
 
+
 class Compose(object):
   def __init__(self, transforms):
     self.transforms = transforms
@@ -25,6 +26,7 @@ class Compose(object):
     for t in self.transforms:
       img, points = t(img, points)
     return img, points
+
 
 class TrainScale2WH(object):
   """Rescale the input PIL.Image to the given size.
@@ -315,8 +317,8 @@ class AugCrop(object):
     y2 = y1 + self.crop_y
 
     w, h = imgs[0].size
-    if x1 < 0 or x2 < 0 or x2 >= w or y2 >= h:
-      pad = max(0-x1, 0-x2, x2-w+1, y2-h+1)
+    if x1 < 0 or y1 < 0 or x2 >= w or y2 >= h:
+      pad = max(0-x1, 0-y1, x2-w+1, y2-h+1)
       assert pad > 0, 'padding operation in crop must be greater than 0'
       imgs = [ ImageOps.expand(img, border=pad, fill=self.fill) for img in imgs ]
       x1, x2, y1, y2 = x1 + pad, x2 + pad, y1 + pad, y2 + pad
@@ -329,6 +331,7 @@ class AugCrop(object):
 
     if is_list == False: imgs = imgs[0]
     return imgs, point_meta
+
 
 class AugRotate(object):
   """Rotate the given PIL.Image at the center.
