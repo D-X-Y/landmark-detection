@@ -43,7 +43,7 @@ image_path annotation_path x1 y1 x2 y2 (face_size)
 
 ## Training
 
-See the `configs` directory for some example configurations.
+See the `configs` directory for some example configurations, and a pre-trained model on 300-W is at [Google Driver](https://drive.google.com/drive/folders/1ylMoVuUaNPqP7GSeWS3yE-wfU9JEJSSu).
 ### Basic Training
 ```
 python ./exps/basic_main.py [<required arguments>]
@@ -53,7 +53,6 @@ An examples script can is `./scripts/300W-DET.sh`, and you can simple run to tra
 ```
 bash scripts/300W-DET.sh
 ```
-An pre-trained model is at [Google Driver](https://drive.google.com/drive/folders/1ylMoVuUaNPqP7GSeWS3yE-wfU9JEJSSu).
 
 ### Improving the Detector by SBR
 ```
@@ -118,4 +117,4 @@ TiffImagePlugin.py:756: UserWarning: Corrupt EXIF data.  Expecting to read 12 by
 ```
 
 ### Contact
-To ask questions or report issues, please open an issue on [the issues tracker](https://github.com/facebookresearch/supervision-by-registration/issues).
+To ask questions or report issues, please open an issue on [the issues tracker](https://github.com/D-X-Y/landmark-detection/issues).
