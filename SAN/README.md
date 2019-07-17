@@ -94,6 +94,10 @@ You can donwload a pre-trained model from the `snapshots` directory of [here](ht
 ```
 CUDA_VISIBLE_DEVICES=1 python san_eval.py --image ./cache_data/cache/test_1.jpg --model ./snapshots/SAN_300W_GTB_itn_cpm_3_50_sigma4_128x128x8/checkpoint_49.pth.tar --face 819.27 432.15 971.70 575.87 --save_path temp_1.png
 ```
+Evaluating on the CPU.
+```
+python san_eval.py --image ./cache_data/cache/test_1.jpg --model ./snapshots/SAN_300W_GTB_itn_cpm_3_50_sigma4_128x128x8/checkpoint_49.pth.tar --face 819.27 432.15 971.70 575.87 --save_path temp_1.png --cpu
+```
 The parameter `image` is the image path to be evaluated, `model` is the trained SAN model, and `face` denotes the coordinates of the face bounding box.
 The ground truth landmark annotation for `./cache_data/cache/test_1.jpg` is `./cache_data/cache/test_1.pts`.
 

@@ -20,9 +20,10 @@ from san_vision import transforms
 from utils import time_string, time_for_file
 
 def evaluate(args):
-  assert torch.cuda.is_available(), 'CUDA is not available.'
-  torch.backends.cudnn.enabled   = True
-  torch.backends.cudnn.benchmark = True
+  if not args.cpu:
+    assert torch.cuda.is_available(), 'CUDA is not available.'
+    torch.backends.cudnn.enabled   = True
+    torch.backends.cudnn.benchmark = True
 
   print ('The image is {:}'.format(args.image))
   print ('The model is {:}'.format(args.model))
@@ -30,7 +31,8 @@ def evaluate(args):
   assert snapshot.exists(), 'The model path {:} does not exist'
   print ('The face bounding box is {:}'.format(args.face))
   assert len(args.face) == 4, 'Invalid face input : {:}'.format(args.face)
-  snapshot = torch.load(snapshot)
+  if args.cpu: snapshot = torch.load(snapshot, map_location='cpu')
+  else       : snapshot = torch.load(snapshot)
 
   mean_fill   = tuple( [int(x*255) for x in [0.5, 0.5, 0.5] ] )
   normalize   = transforms.Normalize(mean=[0.5, 0.5, 0.5],
@@ -40,7 +42,7 @@ def evaluate(args):
 
   net = models.__dict__[param.arch](param.modelconfig, None)
 
-  net = net.cuda()
+  if not args.cpu: net = net.cuda()
   weights = models.remove_module_dict(snapshot['state_dict'])
   net.load_state_dict(weights)
 
@@ -49,10 +51,11 @@ def evaluate(args):
 
   print ('[{:}] prepare the input data'.format(time_string()))
   [image, _, _, _, _, _, cropped_size], meta = dataset.prepare_input(args.image, args.face)
-  inputs = image.unsqueeze(0).cuda()
   print ('[{:}] prepare the input data done'.format(time_string()))
   # network forward
   with torch.no_grad():
+    if args.cpu: inputs = image.unsqueeze(0)
+    else       : inputs = image.unsqueeze(0).cuda()
     batch_heatmaps, batch_locs, batch_scos, _ = net(inputs)
   print ('[{:}] the network forward done'.format(time_string()))
 
@@ -82,5 +85,6 @@ if __name__ == '__main__':
   parser.add_argument('--model',            type=str,   help='The snapshot to the saved detector.')
   parser.add_argument('--face',  nargs='+', type=float, help='The coordinate [x1,y1,x2,y2] of a face')
   parser.add_argument('--save_path',        type=str,   help='The path to save the visualization results')
+  parser.add_argument('--cpu',     action='store_true', help='Use CPU or not.')
   args = parser.parse_args()
   evaluate(args)
