@@ -12,6 +12,10 @@ The training and testing codes for [SAN (CVPR 2018)](https://xuanyidong.com/publ
 
 The training and testing codes for [Supervision-by-Registration (CVPR 2018)](https://xuanyidong.com/publication/cvpr-2018-sbr/) are located in the [SBR directory](https://github.com/D-X-Y/landmark-detection/tree/master/SBR).
 
+## Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection
+
+The model codes for [Teacher Supervises Students (TS3) (ICCV 2019)] are located in the [TS3 directory](https://github.com/D-X-Y/landmark-detection/tree/master/TS3).
+
 
 ## Citation
 If this project helps your research, please cite the following papers:
@@ -29,6 +33,12 @@ If this project helps your research, please cite the following papers:
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={360--368},
   year={2018}
+}
+@inproceedings{dong2019teacher,
+  title={Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection},
+  author={Dong, Xuanyi and Yang, Yi},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+  year={2019}
 }
 ```
 

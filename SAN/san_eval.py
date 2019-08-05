@@ -17,7 +17,7 @@ import models
 import datasets
 from visualization import draw_image_by_points
 from san_vision import transforms
-from utils import time_string, time_for_file
+from utils import time_string, time_for_file, get_model_infos
 
 def evaluate(args):
   if not args.cpu:
@@ -52,11 +52,15 @@ def evaluate(args):
   print ('[{:}] prepare the input data'.format(time_string()))
   [image, _, _, _, _, _, cropped_size], meta = dataset.prepare_input(args.image, args.face)
   print ('[{:}] prepare the input data done'.format(time_string()))
+  print ('Net : \n{:}'.format(net))
   # network forward
   with torch.no_grad():
     if args.cpu: inputs = image.unsqueeze(0)
     else       : inputs = image.unsqueeze(0).cuda()
     batch_heatmaps, batch_locs, batch_scos, _ = net(inputs)
+    #print ('input-shape : {:}'.format(inputs.shape))
+    flops, params = get_model_infos(net, inputs.shape)
+    print ('\nIN-shape : {:}, FLOPs : {:} MB, Params : {:}.'.format(list(inputs.shape), flops, params))
   print ('[{:}] the network forward done'.format(time_string()))
 
   # obtain the locations on the image in the orignial size

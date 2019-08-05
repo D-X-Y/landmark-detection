@@ -16,8 +16,9 @@ lib_dir = (Path(__file__).parent / '..' / 'lib').resolve()
 if str(lib_dir) not in sys.path: sys.path.insert(0, str(lib_dir))
 assert sys.version_info.major == 3, 'Please upgrade from {:} to Python 3.x'.format(sys.version_info)
 from datasets import GeneralDataset as Dataset
-from xvision import transforms, draw_image_by_points
-from models import obtain_model, remove_module_dict
+from xvision  import transforms, draw_image_by_points
+from models   import obtain_model, remove_module_dict
+from utils    import get_model_infos
 from config_utils import load_configure
 
 
@@ -55,10 +56,12 @@ def evaluate(args):
   net.load_state_dict(weights)
   print ('Prepare input data')
   [image, _, _, _, _, _, cropped_size], meta = dataset.prepare_input(args.image, args.face)
-  inputs = image.unsqueeze(0).cuda()
   # network forward
   with torch.no_grad():
+    inputs = image.unsqueeze(0).cuda()
     batch_heatmaps, batch_locs, batch_scos = net(inputs)
+    flops, params = get_model_infos(net, inputs.shape)
+    print ('IN-shape : {:}, FLOPs : {:} MB, Params : {:} MB'.format(list(inputs.shape), flops, params))
   # obtain the locations on the image in the orignial size
   cpu = torch.device('cpu')
   np_batch_locs, np_batch_scos, cropped_size = batch_locs.to(cpu).numpy(), batch_scos.to(cpu).numpy(), cropped_size.numpy()

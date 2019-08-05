@@ -44,6 +44,7 @@ image_path annotation_path x1 y1 x2 y2 (face_size)
 ## Training
 
 See the `configs` directory for some example configurations, and a pre-trained model on 300-W is at [Google Driver](https://drive.google.com/drive/folders/1ylMoVuUaNPqP7GSeWS3yE-wfU9JEJSSu).
+
 ### Basic Training
 ```
 python ./exps/basic_main.py [<required arguments>]
@@ -78,7 +79,7 @@ When using the `basic_main.py` or `lk_main.py`, we evaluate the testing datasets
 
 To evaluate a single image, you can use the following script to compute the coordinates of 68 facial landmarks of the target image:
 ```
-python ./exps/eval.py --image ./cache_data/cache/self.jpeg --model ./snapshots/300W-CPM-DET/checkpoint/cpm_vgg16-epoch-049-050.pth --face 250 150 900 1100 --save ./cache_data/cache/test.jpeg
+CUDA_VISIBLE_DEVICES=0 python ./exps/eval.py --image ./cache_data/cache/self.jpeg --model ./snapshots/300W-CPM-DET/checkpoint/cpm_vgg16-epoch-049-050.pth --face 250 150 900 1100 --save ./cache_data/cache/test.jpeg
 ```
 - image : the input image path
 - model : the snapshot path
