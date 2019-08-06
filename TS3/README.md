@@ -6,11 +6,13 @@ In short, we propose to learn a teacher network that takes a pseudo labeled face
 
 ## Model Configs
 
-We release the model definition is released in the `models` folder, including two student detectors and one teacher network.
+We released the model definition files in the `models` folder, including two student detectors and one teacher network.
 
 ## Full Project Codes?
 
-This project is done about June 2018. The original codes use an old PyTorch version (0.3.1) and are a little bit messy. It would take me much time to re-organize codes and move it to 1.0.1. Thanks for your patience for waiting.
+This project is done at about June 2018.
+The original codes use an old PyTorch version (0.3.1) and are a little bit messy. It would take me much time to re-organize codes and move it to PyTorch 1.0.1.
+Thanks for your patience for waiting.
 
 ## Citation
 If this project helps your research, please cite the following papers:
@@ -22,7 +24,6 @@ If this project helps your research, please cite the following papers:
   year={2019}
 }
 ```
-
 
 ## Contact
 To ask questions or report issues, please open an issue on the [issues tracker](https://github.com/D-X-Y/landmark-detection/issues).
