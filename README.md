@@ -14,7 +14,7 @@ The training and testing codes for [Supervision-by-Registration (CVPR 2018)](htt
 
 ## Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection
 
-The model codes for [Teacher Supervises Students (TS3) (ICCV 2019)] are located in the [TS3 directory](https://github.com/D-X-Y/landmark-detection/tree/master/TS3).
+The model codes for [Teacher Supervises Students (TS3) (ICCV 2019)](https://arxiv.org/abs/1908.02116) are located in the [TS3 directory](https://github.com/D-X-Y/landmark-detection/tree/master/TS3).
 
 
 ## Citation
