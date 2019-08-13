@@ -1,6 +1,5 @@
 from scipy.ndimage.interpolation import zoom
 from collections import OrderedDict
-import utils
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -63,30 +62,6 @@ def remove_module_dict(state_dict):
     name = k[7:] # remove `module.`
     new_state_dict[name] = v
   return new_state_dict
-
-def roi_pooling(input, rois, size=(7,7)):
-  assert rois.dim() == 2 and rois.size(1) == 5, 'rois shape is wrong : {}'.format(rois.size())
-  output = []
-  num_rois = rois.size(0)
-  size = np.array(size)
-  spatial_size = np.array([input.size(3), input.size(2)])
-  for i in range(num_rois):
-    roi = variable2np(rois[i])
-    im_idx = int(roi[0])
-    theta = utils.crop2affine(spatial_size, roi[1:])
-    theta = np2variable(theta, input.is_cuda).unsqueeze(0)
-    grid_size = torch.Size([1, 3, int(size[1]), int(size[0])])
-    grid = F.affine_grid(theta, grid_size)
-    roi_feature = F.grid_sample(input.narrow(0, im_idx, 1), grid)
-    output.append( roi_feature )
-  return torch.cat(output, 0)
-
-def print_network(net, net_str, log):
-  num_params = 0
-  for param in net.parameters():
-    num_params += param.numel()
-  utils.print_log(net, log)
-  utils.print_log('Total number of parameters for {} is {}'.format(net_str, num_params), log)
 
 def count_network_param(net):
   num_params = 0

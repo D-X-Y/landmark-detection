@@ -8,6 +8,14 @@ In short, we propose to learn a teacher network that takes a pseudo labeled face
 
 We released the model definition files in the `models` folder, including two student detectors and one teacher network.
 
+Please use the following script to check the model size and FLOPs of each student detector.
+```
+python test.py
+```
+`CPM` : 16.70 MB parameters and 1720.98 M FLOPs.
+
+`HG` : 24.97 MB parameters and 1600.85 M FLOPs.
+
 ## Full Project Codes?
 
 This project was done at about June 2018.
