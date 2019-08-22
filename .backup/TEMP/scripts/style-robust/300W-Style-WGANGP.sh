@@ -1,0 +1,33 @@
+#!/usr/bin/env sh
+echo script name: $0
+echo $# arguments
+if [ "$#" -ne 4 ] ;then
+  echo "Input illegal number of parameters " $#
+  echo "Need 4 parameters for gpu devices, the normalization layer, the amsgrad, and the face detector"
+  exit 1
+fi
+gpus=$1
+det=$4
+batch_size=64
+sigma=4
+height=96
+width=96
+epochs=500
+norm=$2
+amsgrad=$3
+
+CUDA_VISIBLE_DEVICES=${gpus} python ./exps/style_image_WGAN.py \
+    --train_lists ./cache_data/lists/300W/300w.train.${det} \
+    --eval_lists  ./cache_data/lists/300W/300w.test.full.${det} \
+    --num_pts 68 --data_indicator 300W-68 \
+    --epochs ${epochs} --critic_iters 5 --gan_norm ${norm} \
+    --LR_D 0.0002 --LR_G 0.0002 --gp_lambda 10 --gradient_penalty --debug \
+    --amsgrad ${amsgrad} \
+    --eval_freq 100 --use_tf \
+    --save_path    ./snapshots/300W-STYLE-WGANGP-${norm}-AMS${amsgrad}-${det} \
+    --pre_crop_expand 0.2 \
+    --sigma ${sigma} --batch_size ${batch_size} \
+    --crop_height ${height} --crop_width ${width} --crop_perturb_max 5 --rotate_max 10 \
+    --scale_prob 1.0 --scale_min 0.9 --scale_max 1.1 --scale_eval 1 \
+    --print_freq 50 --workers 12 \
+    --heatmap_type gaussian
