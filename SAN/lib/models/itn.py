@@ -120,7 +120,7 @@ class ITN():
     flops1, params1 = get_model_infos(self.netG_A.model, None, self.real_A)
     fake_B = self.netG_A( self.real_A )
     flops2, params2 = get_model_infos(self.netD_A.model, None, fake_B)
-    return flops1, flops2
+    return flops1 + flops2
 
   def test(self):
     self.real_A = torch.autograd.Variable(self.input_A, volatile=True)

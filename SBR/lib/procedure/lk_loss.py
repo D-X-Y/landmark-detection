@@ -7,7 +7,7 @@
 import models
 import torch
 import numpy as np
-import pdb, math, numbers
+import math, numbers
 
 def lk_input_check(batch_locs, batch_scos, batch_next, batch_fback, batch_back):
   batch, sequence, num_pts, _ = list(batch_locs.size())

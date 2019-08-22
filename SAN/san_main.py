@@ -94,7 +94,7 @@ def main():
 
   args.modelconfig = models.ModelConfig(train_data.NUM_PTS+1, args.cpm_stage, args.pretrain, args.argmax_size)
 
-  if args.cycle_model_path is None or True:
+  if args.cycle_model_path is None:
     # define the network
     itnetwork = models.itn_model(args.modelconfig, args, log)
 

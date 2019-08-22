@@ -9,7 +9,7 @@ from PIL import Image
 from scipy.ndimage.interpolation import zoom
 from utils.file_utils import load_txt_file
 import numpy as np
-import copy, math, pdb
+import copy, math
 
 def pil_loader(path):
   # open path as file to avoid ResourceWarning (https://github.com/python-pillow/Pillow/issues/835)

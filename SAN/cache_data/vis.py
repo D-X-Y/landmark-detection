@@ -1,5 +1,5 @@
 import PIL, numpy as np
-import sys, pdb, os, torch
+import sys, os, torch
 from os import path as osp
 from pathlib import Path
 lib_dir = (Path(__file__).parent / '..' / 'lib').resolve()

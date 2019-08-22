@@ -44,7 +44,7 @@ def train_cycle_gan(dataset, model, opt, log):
   final_epoch = opt.niter + opt.niter_decay
   return_dir = osp.join(save_dir, 'itn-epoch-{}-{}'.format(final_epoch, final_epoch+1))
   #model.set_input( next(iter(dataloader)) )
-  #model.num_flops()
+  #flops = model.num_flops()
   #import pdb; pdb.set_trace()
   if osp.isdir(return_dir):
     print_log('Exist cycle-gan model-save dir : {}, therefore skip train cycle-gan'.format(return_dir), log)
