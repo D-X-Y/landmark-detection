@@ -14,8 +14,9 @@ import init_path
 import torch
 import datasets
 from san_vision import transforms
-from utils import print_log
+from utils import print_log, count_parameters_in_MB
 from utils import convert_size2str, convert_secs2time, time_string, time_for_file
+from utils import get_model_infos
 import debug, models, options, procedure
 
 opt = options.Options(None)
@@ -32,16 +33,16 @@ def main():
   # Init logger
   if not os.path.isdir(args.save_path): os.makedirs(args.save_path)
   log = open(os.path.join(args.save_path, 'seed-{}-{}.log'.format(args.manualSeed, time_for_file())), 'w')
-  print_log('save path : {}'.format(args.save_path), log)
+  print_log('The save path : {}'.format(args.save_path), log)
   print_log('------------ Options -------------', log)
   for k, v in sorted(vars(args).items()):
     print_log('Parameter : {:20} = {:}'.format(k, v), log)
   print_log('-------------- End ----------------', log)
-  print_log("Random Seed: {}".format(args.manualSeed), log)
-  print_log("python version : {}".format(sys.version.replace('\n', ' ')), log)
-  print_log("Pillow version : {}".format(PIL.__version__), log)
-  print_log("torch  version : {}".format(torch.__version__), log)
-  print_log("cudnn  version : {}".format(torch.backends.cudnn.version()), log)
+  print_log("The random seed : {:}".format(args.manualSeed), log)
+  print_log("python version  : {:}".format(sys.version.replace('\n', ' ')), log)
+  print_log("Pillow version  : {:}".format(PIL.__version__), log)
+  print_log("torch  version  : {:}".format(torch.__version__), log)
+  print_log("cudnn  version  : {:}".format(torch.backends.cudnn.version()), log)
 
   # General Data Argumentation
   mean_fill   = tuple( [int(x*255) for x in [0.5, 0.5, 0.5] ] )
@@ -93,10 +94,11 @@ def main():
 
   args.modelconfig = models.ModelConfig(train_data.NUM_PTS+1, args.cpm_stage, args.pretrain, args.argmax_size)
 
-  if args.cycle_model_path is None:
+  if args.cycle_model_path is None or True:
     # define the network
     itnetwork = models.itn_model(args.modelconfig, args, log)
 
+    print_log('itn-parameters : {:} MB'.format(itnetwork.num_parameters()), log)
     cycledata = datasets.CycleDataset(train_transform, args.dataset_name)
     cycledata.set_a(args.cycle_a_lists)
     cycledata.set_b(args.cycle_b_lists)

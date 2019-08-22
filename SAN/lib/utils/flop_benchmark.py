@@ -14,7 +14,7 @@ def count_parameters_in_MB(model):
     return np.sum(np.prod(v.size()) for v in model)/1e6
 
 
-def get_model_infos(model, shape):
+def get_model_infos(model, shape, cache_inputs):
   #model = copy.deepcopy( model )
 
   model = add_flops_counting_methods(model)
@@ -22,7 +22,10 @@ def get_model_infos(model, shape):
   model.eval()
 
   #cache_inputs = torch.zeros(*shape).cuda()
-  cache_inputs = torch.zeros(*shape)
+  if shape is None:
+    cache_inputs = cache_inputs
+  else:
+    cache_inputs = torch.zeros(*shape)
   if next(model.parameters()).is_cuda: cache_inputs = cache_inputs.cuda()
   #print_log('In the calculating function : cache input size : {:}'.format(cache_inputs.size()), log)
   with torch.no_grad():

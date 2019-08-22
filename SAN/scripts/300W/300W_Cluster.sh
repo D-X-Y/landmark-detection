@@ -15,7 +15,7 @@ dataset_name=300W_$2
 
 CUDA_VISIBLE_DEVICES=${gpus} python cluster.py \
     --style_train_root ./cache_data/cache/300W \
-    --style_eval_root ./cache_data/cache/AFLW \
+    --style_eval_root  ./cache_data/cache/AFLW \
     --train_list ./cache_data/lists/300W/Original/300w.train.$2 \
         	 ./cache_data/lists/300W/Original/300w.test.full.$2 \
     --learning_rate 0.01 --epochs 2 \

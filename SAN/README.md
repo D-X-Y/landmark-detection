@@ -79,7 +79,7 @@ The above commands will pre-crop the face images, and save them into `./cache_da
 ## Training and Evaluation
 
 ### 300-W
-- Step-1 : cluster images into different groups, for example `bash scripts/300W/300W_Cluster.sh 0,1 GTB 3`.
+- Step-1 : cluster images into different groups. For example, running `bash scripts/300W/300W_Cluster.sh 0,1 GTB 3` will generate three file lists into `snapshots/CLUSTER-300W_GTB-3`.
 - Step-2 : use `bash scripts/300W/300W_CYCLE_128.sh 0,1 GTB` or `bash scripts/300W/300W_CYCLE_128.sh 0,1 DET` to train SAN on 300-W.
 - `GTB` means using the ground truth face bounding box, and `DET` means using the face detection results from a pre-trained detector (these results are provided from the official 300-W website).
 

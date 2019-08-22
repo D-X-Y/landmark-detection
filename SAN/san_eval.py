@@ -59,7 +59,9 @@ def evaluate(args):
     else       : inputs = image.unsqueeze(0).cuda()
     batch_heatmaps, batch_locs, batch_scos, _ = net(inputs)
     #print ('input-shape : {:}'.format(inputs.shape))
-    flops, params = get_model_infos(net, inputs.shape)
+    flops, params = get_model_infos(net, inputs.shape, None)
+    print ('\nIN-shape : {:}, FLOPs : {:} MB, Params : {:}.'.format(list(inputs.shape), flops, params))
+    flops, params = get_model_infos(net, None, inputs)
     print ('\nIN-shape : {:}, FLOPs : {:} MB, Params : {:}.'.format(list(inputs.shape), flops, params))
   print ('[{:}] the network forward done'.format(time_string()))
 

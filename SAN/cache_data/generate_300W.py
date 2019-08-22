@@ -99,6 +99,7 @@ def generage_300w_list(root, save_dir, box_data, SUFFIX):
   assert len(common_set) == common_length, 'The length is not right for common : {} vs {}'.format(len(common_set), common_length)
   assert len(challeng_set) == challeng_length, 'The length is not right for challeng : {} vs {}'.format(len(common_set), common_length)
 
+  print ('root={:}, save_dir={:}, {:}'.format(root, save_dir, SUFFIX))
   all_lines = []
   with open(osp.join(save_dir, '300w.train.' + SUFFIX), 'w') as txtfile:
     for cpair in train_set:
@@ -106,6 +107,7 @@ def generage_300w_list(root, save_dir, box_data, SUFFIX):
       txtfile.write('{} {} {}\n'.format(cpair[0], cpair[1], box_str))
       all_lines.append('{} {} {}\n'.format(cpair[0], cpair[1], box_str))
   txtfile.close()
+  print ('300W-Trarin : {:} lines'.format(len(all_lines)))
 
   with open(osp.join(save_dir, '300w.test.common.' + SUFFIX), 'w') as txtfile:
     for cpair in common_set:
@@ -136,6 +138,7 @@ def generage_300w_list(root, save_dir, box_data, SUFFIX):
     for line in all_lines:
       txtfile.write('{}'.format(line))
   txtfile.close()
+  print ('300W----ALL : {:} lines'.format(len(all_lines)))
 
 if __name__ == '__main__':
   this_dir = osp.dirname(os.path.abspath(__file__))
@@ -149,6 +152,6 @@ if __name__ == '__main__':
   for USE_BOX in USE_BOXES:
     for style in styles:
       box_datas = load_all_300w(path_300w, style)
-      SAVE_DIR = osp.join(this_dir, 'lists', '300W', style)
-      Data_DIR = osp.join(path_300w, '300W-' + style)
+      SAVE_DIR  = osp.join(this_dir, 'lists', '300W', style)
+      Data_DIR  = osp.join(path_300w, '300W-' + style)
       generage_300w_list(Data_DIR, SAVE_DIR, box_datas, USE_BOX)

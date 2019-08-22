@@ -3,12 +3,15 @@ from collections import OrderedDict
 from os import path as osp
 import utils
 from utils.image_pool import ImagePool
+from utils import count_parameters_in_MB
+from utils import get_model_infos
 from .generator_model import ResnetGenerator
 from .discriminator_model import NLayerDiscriminator
-from .gan_loss import GANLoss
-from .cycle_util import get_scheduler, save_network, load_network, tensor2im
-from .model_utils import print_network
+from .gan_loss       import GANLoss
+from .cycle_util     import get_scheduler, save_network, load_network, tensor2im
+from .model_utils    import print_network
 from .initialization import weights_init_xavier
+
 
 def define_G(gpu_ids=[]):
   netG = ResnetGenerator(gpu_ids=gpu_ids)
@@ -17,6 +20,7 @@ def define_G(gpu_ids=[]):
   netG.apply(weights_init_xavier)
   return netG
 
+
 def define_D(gpu_ids=[]):
   netD = NLayerDiscriminator(use_sigmoid=False, gpu_ids=gpu_ids)
   if len(gpu_ids) > 0:
@@ -24,7 +28,9 @@ def define_D(gpu_ids=[]):
   netD.apply(weights_init_xavier)
   return netD
 
+
 class ITN():
+
   def __repr__(self):
     return ('{name})'.format(name=self.__class__.__name__, **self.__dict__))
 
@@ -49,15 +55,15 @@ class ITN():
     self.netD_B = define_D(gpu_ids=self.gpu_ids)
 
     # for training 
-    self.fake_A_pool = ImagePool(opt.pool_size)
-    self.fake_B_pool = ImagePool(opt.pool_size)
+    self.fake_A_pool   = ImagePool(opt.pool_size)
+    self.fake_B_pool   = ImagePool(opt.pool_size)
     # define loss functions
-    self.criterionGAN = GANLoss(use_lsgan=True, tensor=self.Tensor)
+    self.criterionGAN  = GANLoss(use_lsgan=True, tensor=self.Tensor)
     self.criterionCycle = torch.nn.L1Loss()
-    self.criterionIdt = torch.nn.L1Loss()
+    self.criterionIdt  = torch.nn.L1Loss()
     # initialize optimizers
-    self.optimizer_G = torch.optim.Adam(itertools.chain(self.netG_A.parameters(), self.netG_B.parameters()),
-                        lr=opt.cycle_lr, betas=(opt.cycle_beta1, 0.999))
+    self.optimizer_G   = torch.optim.Adam(itertools.chain(self.netG_A.parameters(), self.netG_B.parameters()),
+                             lr=opt.cycle_lr, betas=(opt.cycle_beta1, 0.999))
     self.optimizer_D_A = torch.optim.Adam(self.netD_A.parameters(), lr=opt.cycle_lr, betas=(opt.cycle_beta1, 0.999))
     self.optimizer_D_B = torch.optim.Adam(self.netD_B.parameters(), lr=opt.cycle_lr, betas=(opt.cycle_beta1, 0.999))
     self.optimizers = []
@@ -101,6 +107,20 @@ class ITN():
   def prepaer_input(self):
     self.real_A = torch.autograd.Variable(self.input_A)
     self.real_B = torch.autograd.Variable(self.input_B)
+
+  def num_parameters(self):
+    params = count_parameters_in_MB(self.netG_A)
+    params+= count_parameters_in_MB(self.netG_B)
+    params+= count_parameters_in_MB(self.netD_B)
+    params+= count_parameters_in_MB(self.netD_B)
+    return params
+
+  def num_flops(self):
+    self.prepaer_input()
+    flops1, params1 = get_model_infos(self.netG_A.model, None, self.real_A)
+    fake_B = self.netG_A( self.real_A )
+    flops2, params2 = get_model_infos(self.netD_A.model, None, fake_B)
+    return flops1, flops2
 
   def test(self):
     self.real_A = torch.autograd.Variable(self.input_A, volatile=True)

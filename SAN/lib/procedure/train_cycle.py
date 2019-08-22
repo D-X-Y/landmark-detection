@@ -9,6 +9,7 @@ import torch
 import torch.nn as nn
 from utils import AverageMeter, print_log, convert_size2str, convert_secs2time, time_string, time_for_file
 
+
 def convert2string(errors):
   string = 'D_A : {:.3f} G_A : {:.3f}'.format(errors['D_A'], errors['G_A'])
   string = string + ' D_B : {:.3f} G_B : {:.3f}'.format(errors['D_B'], errors['G_B'])
@@ -17,6 +18,7 @@ def convert2string(errors):
   if 'idt_B' in errors:
     string = string + ' idt_B : {:.3f}'.format(errors['idt_B'])
   return string
+
 
 def save_visual(save_dir, visuals):
   if not osp.isdir(save_dir): os.makedirs(save_dir)
@@ -29,10 +31,11 @@ def save_visual(save_dir, visuals):
   if 'idt_A' in visuals: visuals['idt_A'].save( osp.join(save_dir, 'idt_A.png') )
   if 'idt_B' in visuals: visuals['idt_B'].save( osp.join(save_dir, 'idt_B.png') )
 
+
 def train_cycle_gan(dataset, model, opt, log):
 
   save_dir = osp.join(opt.save_path, 'cycle-gan')
-  print_log('save dir into {}'.format(save_dir), log)
+  print_log('save dir into {:}'.format(save_dir), log)
   model.set_mode('train')
   dataloader = torch.utils.data.DataLoader(dataset, batch_size=opt.cycle_batchSize, shuffle=True, num_workers=opt.workers)
   epoch_start_time = time.time()
@@ -40,6 +43,9 @@ def train_cycle_gan(dataset, model, opt, log):
 
   final_epoch = opt.niter + opt.niter_decay
   return_dir = osp.join(save_dir, 'itn-epoch-{}-{}'.format(final_epoch, final_epoch+1))
+  #model.set_input( next(iter(dataloader)) )
+  #model.num_flops()
+  #import pdb; pdb.set_trace()
   if osp.isdir(return_dir):
     print_log('Exist cycle-gan model-save dir : {}, therefore skip train cycle-gan'.format(return_dir), log)
     return return_dir

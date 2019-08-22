@@ -12,13 +12,14 @@ import numpy as np
 from os import path as osp
 import datasets
 from san_vision import transforms
+from utils      import time_string
 
 PRINT_GAP = 1000
 
 def crop_style(list_file, num_pts, save_dir):
   #style = 'Original'
   #save_dir = 'cache/{}'.format(style)
-  print ('crop face images into {}'.format(save_dir))
+  print ('Cropping face images into {:}'.format(save_dir))
   if not osp.isdir(save_dir): os.makedirs(save_dir)
   transform  = transforms.Compose([transforms.PreCrop(0.2), transforms.TrainScale2WH((256, 256))])
   data = datasets.GeneralDataset(transform, 1, 8, 'gaussian', 'test')
@@ -31,7 +32,7 @@ def crop_style(list_file, num_pts, save_dir):
     save_name = osp.join(save_dir, basename)
     image.save(save_name)
     if i % PRINT_GAP == 0:
-      print ('--->>> process the {:4d}/{:4d}-th image'.format(i, len(data)))
+      print ('{:} --->>> process the {:4d}/{:4d}-th image into {:}'.format(time_string(), i, len(data), save_dir))
 
 
 if __name__ == '__main__':

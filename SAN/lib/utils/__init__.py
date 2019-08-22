@@ -6,6 +6,6 @@ from .file_utils     import load_list_from_folders, load_txt_file
 from .pts_utils      import generate_label_map_gaussian
 from .pts_utils      import generate_label_map_laplacian
 from .time_utils     import convert_size2str
-from .flop_benchmark import get_model_infos
+from .flop_benchmark import get_model_infos, count_parameters_in_MB
 
 from .stn_utils      import crop2affine
