@@ -25,6 +25,7 @@ from config_utils import load_configure
 from models import obtain_model
 from optimizer import obtain_optimizer
 
+
 def main(args):
   assert torch.cuda.is_available(), 'CUDA is not available.'
   torch.backends.cudnn.enabled   = True
@@ -155,7 +156,8 @@ def main(args):
     logger.log('==>>{:s} Train [{:}] Average Loss = {:.6f}, NME = {:.2f}'.format(time_string(), epoch_str, train_loss, train_nme*100))
 
     # remember best prec@1 and save checkpoint
-    save_path = save_checkpoint({
+    if epoch % 20 == 0 or epoch + 1 == opt_config.epochs:
+      save_path = save_checkpoint({
           'epoch': epoch,
           'args' : deepcopy(args),
           'arch' : model_config.arch,
@@ -164,7 +166,7 @@ def main(args):
           'optimizer' : optimizer.state_dict(),
           }, logger.path('model') / '{:}-{:}.pth'.format(model_config.arch, epoch_str), logger)
 
-    last_info = save_checkpoint({
+      last_info = save_checkpoint({
           'epoch': epoch,
           'last_checkpoint': save_path,
           }, logger.last_info(), logger)
@@ -176,6 +178,7 @@ def main(args):
     start_time = time.time()
 
   logger.close()
+
 
 if __name__ == '__main__':
   args = obtain_basic_args()

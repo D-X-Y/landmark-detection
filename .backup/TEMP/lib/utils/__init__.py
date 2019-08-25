@@ -5,3 +5,4 @@
 # LICENSE file in the root directory of this source tree.
 #
 from .file_utils import load_list_from_folders, load_txt_file
+from .flop_benchmark import count_parameters_in_MB, get_model_infos

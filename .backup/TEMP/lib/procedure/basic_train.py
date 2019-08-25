@@ -11,6 +11,7 @@ from copy import deepcopy
 from pathlib import Path
 from xvision import Eval_Meta
 from log_utils import AverageMeter, time_for_file, convert_secs2time
+from utils   import count_parameters_in_MB, get_model_infos
 from .losses import compute_stage_loss, show_stage_loss
 
 # train function (forward, backward, update)
@@ -28,6 +29,9 @@ def basic_train(args, loader, net, criterion, optimizer, epoch_str, logger, opt_
   end = time.time()
   for i, (inputs, target, mask, points, image_index, nopoints, cropped_size) in enumerate(loader):
     # inputs : Batch, Channel, Height, Width
+
+    #flops, params = get_model_infos(net, None, inputs)
+    #import pdb; pdb.set_trace()
 
     target = target.cuda(non_blocking=True)
 

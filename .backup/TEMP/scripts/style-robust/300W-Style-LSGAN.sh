@@ -6,6 +6,8 @@ if [ "$#" -ne 4 ] ;then
   echo "Need 4 parameters for gpu devices, the normalization layer, the amsgrad, and the face detector"
   exit 1
 fi
+TIME=$(date +"%Y-%h-%d--%T")
+TIME="${TIME//:/-}"
 gpus=$1
 det=$4
 batch_size=64
@@ -23,8 +25,8 @@ CUDA_VISIBLE_DEVICES=${gpus} python ./exps/style_image_LSGAN.py \
     --epochs ${epochs} --critic_iters 1 --gan_norm ${norm} \
     --LR_D 0.0002 --LR_G 0.0002 --wgan_clip 0.01 --debug \
     --amsgrad ${amsgrad} \
-    --eval_freq 100 --use_tf \
-    --save_path    ./snapshots/300W-STYLE-LSGAN-${norm}-AMS${amsgrad}-${det} \
+    --eval_freq 100 \
+    --save_path    ./snapshots/300W-STYLE-LSGAN-${norm}-AMS${amsgrad}-${det}-${TIME} \
     --pre_crop_expand 0.2 \
     --sigma ${sigma} --batch_size ${batch_size} \
     --crop_height ${height} --crop_width ${width} --crop_perturb_max 5 --rotate_max 10 \

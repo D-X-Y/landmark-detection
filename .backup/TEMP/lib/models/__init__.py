@@ -6,6 +6,5 @@
 #
 from .basic import obtain_model
 from .basic import obtain_GAN
-from .basic import obtain_LK
 from .model_utils import remove_module_dict
 from .basic import obtain_stlye

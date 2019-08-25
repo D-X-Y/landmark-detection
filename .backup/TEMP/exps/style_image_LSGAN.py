@@ -13,14 +13,17 @@ from copy import deepcopy
 from pathlib import Path
 lib_dir = (Path(__file__).parent / '..' / 'lib').resolve()
 if str(lib_dir) not in sys.path: sys.path.insert(0, str(lib_dir))
+#sys.path.insert(0, str('/data02/dongxuanyi/codes/imgaug'))
 assert sys.version_info.major == 3, 'Please upgrade from {:} to Python 3.x'.format(sys.version_info)
 from config_utils import obtain_style_args
 from procedure import prepare_seed, save_checkpoint, generate_noise, style_eval_plain
-from datasets import GeneralDataset as Dataset
-from xvision import transforms, style_trans
+from datasets  import GeneralDataset as Dataset
+from xvision   import transforms, style_trans
 from log_utils import Logger, AverageMeter, time_for_file, convert_secs2time, time_string
 from config_utils import load_configure
-from models import obtain_GAN
+from models    import obtain_GAN
+from utils     import count_parameters_in_MB, get_model_infos
+
 
 def main(args):
   assert torch.cuda.is_available(), 'CUDA is not available.'
@@ -132,10 +135,12 @@ def main(args):
       # Update D Network
       optimizerD.zero_grad()
       D_real = netD(StyleImages).mean(dim=1).mean(dim=1)
+      flops1, params1 = get_model_infos(netD, None, StyleImages)
       D_real_loss = MSE_loss(D_real, y_real_)
       
       noise_inputs = generate_noise(PlainImages)
       G_ = netG(noise_inputs)
+      flops2, params2 = get_model_infos(netG, None, noise_inputs)
       D_fake = netD(G_).mean(dim=1).mean(dim=1)
       D_fake_loss = MSE_loss(D_fake, y_fake_)
 
@@ -194,6 +199,7 @@ def main(args):
     start_time = time.time()
 
   logger.close()
+
 
 if __name__ == '__main__':
   args = obtain_style_args()
