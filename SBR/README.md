@@ -18,6 +18,7 @@ If you find that Supervision-by-Registration helps your research, please cite th
   author={Dong, Xuanyi and Yu, Shoou-I and Weng, Xinshuo and Wei, Shih-En and Yang, Yi and Sheikh, Yaser},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={360--368},
+  doi={10.1109/CVPR.2018.00045},
   year={2018}
 }
 ```

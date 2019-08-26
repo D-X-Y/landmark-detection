@@ -25,6 +25,7 @@ If this project helps your research, please cite the following papers:
    author={Dong, Xuanyi and Yan, Yan and Ouyang, Wanli and Yang, Yi},
    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
    pages={379--388},
+   doi={10.1109/CVPR.2018.00047},
    year={2018}
 }
 @inproceedings{dong2018sbr,
@@ -32,6 +33,7 @@ If this project helps your research, please cite the following papers:
   author={Dong, Xuanyi and Yu, Shoou-I and Weng, Xinshuo and Wei, Shih-En and Yang, Yi and Sheikh, Yaser},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={360--368},
+  doi={10.1109/CVPR.2018.00045},
   year={2018}
 }
 @inproceedings{dong2019teacher,
