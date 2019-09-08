@@ -65,6 +65,7 @@ The argument list is loaded by `./lib/config_utils/lk_args.py`.
 
 #### An example to train SBR on the unlabeled sequences
 The `init_model` parameter is the path to the detector trained in the `Basic Training` section.
+Please prepare data for this demo following [this](https://github.com/D-X-Y/landmark-detection/tree/master/SBR/cache_data#a-short-demo-video-sequence).
 ```
 bash scripts/demo_sbr.sh
 ```
