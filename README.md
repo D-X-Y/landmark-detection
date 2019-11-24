@@ -1,12 +1,15 @@
 # Landmark Detection
 
-This project contains several landmark detection algorithms, implemented in [PyTorch](pytorch.org).
+This project contains three landmark detection algorithms, implemented in [PyTorch](pytorch.org).
+
+- Style Aggregated Network for Facial Landmark Detection, CVPR 2018
+- Supervision-by-Registration: An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors, CVPR 2018
+- Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection, ICCV 2019
 
 
 ## Style Aggregated Network for Facial Landmark Detection
 
 The training and testing codes for [SAN (CVPR 2018)](https://xuanyidong.com/publication/cvpr-2018-san/) are located in the [SAN directory](https://github.com/D-X-Y/landmark-detection/tree/master/SAN).
-
 
 ## Supervision-by-Registration: An Unsupervised Approach to Improve the Precision of Facial Landmark Detectors
 
@@ -15,7 +18,6 @@ The training and testing codes for [Supervision-by-Registration (CVPR 2018)](htt
 ## Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection
 
 The model codes for [Teacher Supervises Students (TS3) (ICCV 2019)](https://arxiv.org/abs/1908.02116) are located in the [TS3 directory](https://github.com/D-X-Y/landmark-detection/tree/master/TS3).
-
 
 ## Citation
 If this project helps your research, please cite the following papers:
