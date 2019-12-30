@@ -1,6 +1,7 @@
 # Facial Landmark Detection Datasets: 300W-Style and AFLW-Style
 
-300W-Style and AFLW-Style are created based on 300W and AFLW, respectively. In a nutshell, I applied three different (light, gray, sketch) to the original facial images of 300W and AFLW.
+300W-Style and AFLW-Style are created based on 300W and AFLW, respectively.
+They are introduced in [Style Aggregated Network for Facial Landmark Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Style_Aggregated_Network_CVPR_2018_paper.pdf). In a nutshell, I applied three different style changes (light, gray, sketch) to the original facial images of 300W and AFLW.
 Together with the original images, 300W-Style and AFLW-Style have four variants of each image in the original 300W and AFLW. In the same time, each variant share the same annotation for facial landmarks.
 They are used to facilitate the analysis for facial landmark detection problem.
 
