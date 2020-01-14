@@ -52,7 +52,7 @@ class Eval_Meta():
 
   def load(self, filename):
     assert os.path.isfile(filename), '{} is not a file'.format(filename)
-    checkpoint       = torch.load(filename)
+    checkpoint       = torch.load(filename, map_location='cpu')
     self.predictions = checkpoint['predictions']
     self.groundtruth = checkpoint['groundtruth']
     self.image_lists = checkpoint['image_lists']
