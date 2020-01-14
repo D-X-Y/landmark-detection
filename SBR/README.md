@@ -44,7 +44,7 @@ image_path annotation_path x1 y1 x2 y2 (face_size)
 
 ## Training
 
-See the `configs` directory for some example configurations, and a pre-trained model on 300-W is at [Google Driver](https://drive.google.com/drive/folders/1ylMoVuUaNPqP7GSeWS3yE-wfU9JEJSSu).
+See the `configs` directory for some example configurations, and a pre-trained model on 300-W is at [Google Driver](https://drive.google.com/drive/folders/1ylMoVuUaNPqP7GSeWS3yE-wfU9JEJSSu) and [Google Driver](https://drive.google.com/open?id=1znVYaCheFJ6VbZmzS1fcfkHoOV4K9H6L).
 
 ### Basic Training
 ```
@@ -87,6 +87,11 @@ CUDA_VISIBLE_DEVICES=0 python ./exps/eval.py --image ./cache_data/cache/self.jpe
 - model : the snapshot path
 - face  : the face bounding box
 - save  : save the visualized results
+
+Or if you want to run on CPU:
+```
+python ./exps/eval.py --cpu --image ./cache_data/cache/self.jpeg --model ./snapshots/300W-CPM-DET/checkpoint/cpm_vgg16-epoch-049-050.pth --face 250 150 900 1100 --save ./cache_data/cache/test.jpeg
+```
 
 
 ## Visualization

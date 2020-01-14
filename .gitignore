@@ -16,3 +16,5 @@ cache_data/full.pdf
 cache_data/cache/
 *.zip
 */*.zip
+.DS_Store
+*/.DS_Store
