@@ -1,0 +1,2986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<a>
+   <mapping>
+      <tr>
+         <td>Action</td>
+         <td>subaction</td>
+         <td>S1</td>
+         <td>S2</td>
+         <td>S3</td>
+         <td>S4</td>
+         <td>S5</td>
+         <td>S6</td>
+         <td>S7</td>
+         <td>S8</td>
+         <td>S9</td>
+         <td>S10</td>
+         <td>S11</td>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td>1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 2</td>
+         <td>_ALL 1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 1</td>
+         <td>_ALL 2</td>
+         <td>_ALL 1</td>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td>2</td>
+         <td>_ALL</td>
+         <td>_ALL 1</td>
+         <td>_ALL</td>
+         <td>_ALL</td>
+         <td>_ALL</td>
+         <td>_ALL</td>
+         <td>_ALL</td>
+         <td>_ALL</td>
+         <td>_ALL</td>
+         <td>_ALL 1</td>
+         <td>_ALL</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+         <td>Directions 1</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>2</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions 2</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions</td>
+         <td>Directions</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 2</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+         <td>Discussion 1</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>2</td>
+         <td>Discussion</td>
+         <td>Discussion</td>
+         <td>Discussion</td>
+         <td>Discussion</td>
+         <td>Discussion 3</td>
+         <td>Discussion</td>
+         <td>Discussion</td>
+         <td>Discussion</td>
+         <td>Discussion 2</td>
+         <td>Discussion 2</td>
+         <td>Discussion 2</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>1</td>
+         <td>Eating 2</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+         <td>Eating 1</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>2</td>
+         <td>Eating</td>
+         <td>Eating 2</td>
+         <td>Eating 2</td>
+         <td>Eating</td>
+         <td>Eating</td>
+         <td>Eating 2</td>
+         <td>Eating</td>
+         <td>Eating</td>
+         <td>Eating</td>
+         <td>Eating</td>
+         <td>Eating</td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td>1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 1</td>
+         <td>Greeting 2</td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td>2</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting 2</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+         <td>Greeting</td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 2</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 1</td>
+         <td>Phoning 3</td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>2</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning</td>
+         <td>Phoning 2</td>
+      </tr>
+      <tr>
+         <td>7</td>
+         <td>1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 2</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+         <td>Posing 1</td>
+      </tr>
+      <tr>
+         <td>7</td>
+         <td>2</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing 2</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing</td>
+         <td>Posing</td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+         <td>Purchases 1</td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>2</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+         <td>Purchases</td>
+      </tr>
+      <tr>
+         <td>9</td>
+         <td>1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+         <td>Sitting 1</td>
+      </tr>
+      <tr>
+         <td>9</td>
+         <td>2</td>
+         <td>Sitting 2</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+         <td>Sitting 2</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+         <td>Sitting</td>
+      </tr>
+      <tr>
+         <td>10</td>
+         <td>1</td>
+         <td>SittingDown 2</td>
+         <td>SittingDown 2</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown</td>
+         <td>SittingDown</td>
+         <td>SittingDown</td>
+         <td>SittingDown</td>
+         <td>SittingDown</td>
+      </tr>
+      <tr>
+         <td>10</td>
+         <td>2</td>
+         <td>SittingDown</td>
+         <td>SittingDown 3</td>
+         <td>SittingDown</td>
+         <td>SittingDown 2</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown 1</td>
+         <td>SittingDown 1</td>
+      </tr>
+      <tr>
+         <td>11</td>
+         <td>1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 1</td>
+         <td>Smoking 2</td>
+         <td>Smoking 2</td>
+      </tr>
+      <tr>
+         <td>11</td>
+         <td>2</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+         <td>Smoking</td>
+      </tr>
+      <tr>
+         <td>12</td>
+         <td>1</td>
+         <td>TakingPhoto 1</td>
+         <td>Photo 1</td>
+         <td>Photo 1</td>
+         <td>Photo 1</td>
+         <td>Photo</td>
+         <td>Photo</td>
+         <td>Photo</td>
+         <td>Photo 1</td>
+         <td>Photo 1</td>
+         <td>Photo 1</td>
+         <td>Photo 1</td>
+      </tr>
+      <tr>
+         <td>12</td>
+         <td>2</td>
+         <td>TakingPhoto</td>
+         <td>Photo</td>
+         <td>Photo</td>
+         <td>Photo</td>
+         <td>Photo 2</td>
+         <td>Photo 1</td>
+         <td>Photo 1</td>
+         <td>Photo</td>
+         <td>Photo</td>
+         <td>Photo</td>
+         <td>Photo</td>
+      </tr>
+      <tr>
+         <td>13</td>
+         <td>1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 3</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+         <td>Waiting 1</td>
+      </tr>
+      <tr>
+         <td>13</td>
+         <td>2</td>
+         <td>Waiting</td>
+         <td>Waiting</td>
+         <td>Waiting</td>
+         <td>Waiting</td>
+         <td>Waiting 2</td>
+         <td>Waiting</td>
+         <td>Waiting 2</td>
+         <td>Waiting</td>
+         <td>Waiting</td>
+         <td>Waiting</td>
+         <td>Waiting</td>
+      </tr>
+      <tr>
+         <td>14</td>
+         <td>1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+         <td>Walking 1</td>
+      </tr>
+      <tr>
+         <td>14</td>
+         <td>2</td>
+         <td>Walking</td>
+         <td>Walking</td>
+         <td>Walking 2</td>
+         <td>Walking</td>
+         <td>Walking</td>
+         <td>Walking</td>
+         <td>Walking 2</td>
+         <td>Walking</td>
+         <td>Walking</td>
+         <td>Walking</td>
+         <td>Walking</td>
+      </tr>
+      <tr>
+         <td>15</td>
+         <td>1</td>
+         <td>WalkingDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+         <td>WalkDog 1</td>
+      </tr>
+      <tr>
+         <td>15</td>
+         <td>2</td>
+         <td>WalkingDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+         <td>WalkDog</td>
+      </tr>
+      <tr>
+         <td>16</td>
+         <td>1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 2</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+         <td>WalkTogether 1</td>
+      </tr>
+      <tr>
+         <td>16</td>
+         <td>2</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether 3</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether 2</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether</td>
+         <td>WalkTogether</td>
+      </tr>
+      <tr>
+         <td>Action</td>
+         <td>subaction</td>
+         <td>Irina</td>
+         <td>Lizuca</td>
+         <td>Razvan</td>
+         <td>Sergiu</td>
+         <td>Carolina</td>
+         <td>Rares</td>
+         <td>Diana</td>
+         <td>Catalin</td>
+         <td>Paul</td>
+         <td>Anis</td>
+         <td>Andrei</td>
+      </tr>
+      <tr>
+         <td/>
+         <td/>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1002 1000;1002 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1002 1000;1002 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+         <td>[1002 1000;1002 1000;1002 1000;1002 1000]</td>
+         <td>[1002 1000;1000 1000;1000 1000;1002 1000]</td>
+      </tr>
+   </mapping>
+   <toffiles>
+      <tr>
+         <td>Action</td>
+         <td>subaction</td>
+         <td>Irina</td>
+         <td>Lizuca</td>
+         <td>Razvan</td>
+         <td>Sergiu</td>
+         <td>Carolina</td>
+         <td>Rares</td>
+         <td>Diana</td>
+         <td>Catalin</td>
+         <td>Paul</td>
+         <td>Anis</td>
+         <td>Andrei</td>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td>1</td>
+         <td>41</td>
+         <td>38</td>
+         <td>36</td>
+         <td>38</td>
+         <td>38</td>
+         <td>40</td>
+         <td>38</td>
+         <td>33</td>
+         <td>72</td>
+         <td>-1</td>
+         <td>36</td>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td>2</td>
+         <td>40</td>
+         <td>37</td>
+         <td>35</td>
+         <td>37</td>
+         <td>37</td>
+         <td>39</td>
+         <td>37</td>
+         <td>30</td>
+         <td>71</td>
+         <td>-1</td>
+         <td>35</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>1</td>
+         <td>25</td>
+         <td>12</td>
+         <td>14</td>
+         <td>13</td>
+         <td>12</td>
+         <td>27</td>
+         <td>15</td>
+         <td>12</td>
+         <td>51</td>
+         <td>14</td>
+         <td>12</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>2</td>
+         <td>24</td>
+         <td>11</td>
+         <td>12</td>
+         <td>12</td>
+         <td>13</td>
+         <td>26</td>
+         <td>14</td>
+         <td>11</td>
+         <td>50</td>
+         <td>13</td>
+         <td>11</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>1</td>
+         <td>7</td>
+         <td>4</td>
+         <td>4</td>
+         <td>5</td>
+         <td>1</td>
+         <td>5</td>
+         <td>5</td>
+         <td>4</td>
+         <td>42</td>
+         <td>5</td>
+         <td>2</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>2</td>
+         <td>6</td>
+         <td>3</td>
+         <td>3</td>
+         <td>4</td>
+         <td>2</td>
+         <td>4</td>
+         <td>4</td>
+         <td>3</td>
+         <td>43</td>
+         <td>6</td>
+         <td>3</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>1</td>
+         <td>10</td>
+         <td>24</td>
+         <td>27</td>
+         <td>27</td>
+         <td>26</td>
+         <td>15</td>
+         <td>27</td>
+         <td>25</td>
+         <td>64</td>
+         <td>-1</td>
+         <td>25</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>2</td>
+         <td>8</td>
+         <td>25</td>
+         <td>26</td>
+         <td>26</td>
+         <td>25</td>
+         <td>16</td>
+         <td>26</td>
+         <td>24</td>
+         <td>63</td>
+         <td>-1</td>
+         <td>24</td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td>1</td>
+         <td>18</td>
+         <td>6</td>
+         <td>6</td>
+         <td>7</td>
+         <td>4</td>
+         <td>7</td>
+         <td>7</td>
+         <td>6</td>
+         <td>45</td>
+         <td>8</td>
+         <td>6</td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td>2</td>
+         <td>17</td>
+         <td>5</td>
+         <td>5</td>
+         <td>6</td>
+         <td>5</td>
+         <td>6</td>
+         <td>6</td>
+         <td>5</td>
+         <td>44</td>
+         <td>7</td>
+         <td>4</td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>1</td>
+         <td>37</td>
+         <td>27</td>
+         <td>30</td>
+         <td>29</td>
+         <td>28</td>
+         <td>21</td>
+         <td>30</td>
+         <td>27</td>
+         <td>66</td>
+         <td>-1</td>
+         <td>29</td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>2</td>
+         <td>36</td>
+         <td>26</td>
+         <td>29</td>
+         <td>28</td>
+         <td>27</td>
+         <td>20</td>
+         <td>28</td>
+         <td>26</td>
+         <td>65</td>
+         <td>-1</td>
+         <td>28</td>
+      </tr>
+      <tr>
+         <td>7</td>
+         <td>1</td>
+         <td>29</td>
+         <td>16</td>
+         <td>18</td>
+         <td>17</td>
+         <td>18</td>
+         <td>32</td>
+         <td>19</td>
+         <td>16</td>
+         <td>55</td>
+         <td>-1</td>
+         <td>16</td>
+      </tr>
+      <tr>
+         <td>7</td>
+         <td>2</td>
+         <td>28</td>
+         <td>15</td>
+         <td>19</td>
+         <td>16</td>
+         <td>17</td>
+         <td>30</td>
+         <td>18</td>
+         <td>15</td>
+         <td>54</td>
+         <td>17</td>
+         <td>15</td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>1</td>
+         <td>31</td>
+         <td>18</td>
+         <td>21</td>
+         <td>19</td>
+         <td>20</td>
+         <td>34</td>
+         <td>21</td>
+         <td>18</td>
+         <td>58</td>
+         <td>-1</td>
+         <td>19</td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>2</td>
+         <td>30</td>
+         <td>17</td>
+         <td>20</td>
+         <td>18</td>
+         <td>19</td>
+         <td>33</td>
+         <td>20</td>
+         <td>17</td>
+         <td>56</td>
+         <td>-1</td>
+         <td>18</td>
+      </tr>
+      <tr>
+         <td>9</td>
+         <td>1</td>
+         <td>12</td>
+         <td>31</td>
+         <td>34</td>
+         <td>33</td>
+         <td>32</td>
+         <td>18</td>
+         <td>34</td>
+         <td>32</td>
+         <td>70</td>
+         <td>-1</td>
+         <td>34</td>
+      </tr>
+      <tr>
+         <td>9</td>
+         <td>2</td>
+         <td>13</td>
+         <td>30</td>
+         <td>33</td>
+         <td>32</td>
+         <td>31</td>
+         <td>19</td>
+         <td>33</td>
+         <td>31</td>
+         <td>69</td>
+         <td>-1</td>
+         <td>33</td>
+      </tr>
+      <tr>
+         <td>10</td>
+         <td>1</td>
+         <td>16</td>
+         <td>34</td>
+         <td>38</td>
+         <td>35</td>
+         <td>33</td>
+         <td>25</td>
+         <td>35</td>
+         <td>34</td>
+         <td>73</td>
+         <td>-1</td>
+         <td>37</td>
+      </tr>
+      <tr>
+         <td>10</td>
+         <td>2</td>
+         <td>14</td>
+         <td>35</td>
+         <td>37</td>
+         <td>36</td>
+         <td>34</td>
+         <td>24</td>
+         <td>36</td>
+         <td>35</td>
+         <td>74</td>
+         <td>-1</td>
+         <td>38</td>
+      </tr>
+      <tr>
+         <td>11</td>
+         <td>1</td>
+         <td>39</td>
+         <td>29</td>
+         <td>32</td>
+         <td>31</td>
+         <td>30</td>
+         <td>23</td>
+         <td>32</td>
+         <td>29</td>
+         <td>68</td>
+         <td>-1</td>
+         <td>32</td>
+      </tr>
+      <tr>
+         <td>11</td>
+         <td>2</td>
+         <td>38</td>
+         <td>28</td>
+         <td>31</td>
+         <td>30</td>
+         <td>29</td>
+         <td>22</td>
+         <td>31</td>
+         <td>28</td>
+         <td>67</td>
+         <td>-1</td>
+         <td>30</td>
+      </tr>
+      <tr>
+         <td>12</td>
+         <td>1</td>
+         <td>27</td>
+         <td>14</td>
+         <td>16</td>
+         <td>15</td>
+         <td>14</td>
+         <td>28</td>
+         <td>16</td>
+         <td>14</td>
+         <td>53</td>
+         <td>16</td>
+         <td>14</td>
+      </tr>
+      <tr>
+         <td>12</td>
+         <td>2</td>
+         <td>26</td>
+         <td>13</td>
+         <td>15</td>
+         <td>14</td>
+         <td>16</td>
+         <td>29</td>
+         <td>17</td>
+         <td>13</td>
+         <td>52</td>
+         <td>15</td>
+         <td>13</td>
+      </tr>
+      <tr>
+         <td>13</td>
+         <td>1</td>
+         <td>20</td>
+         <td>8</td>
+         <td>8</td>
+         <td>9</td>
+         <td>7</td>
+         <td>11</td>
+         <td>9</td>
+         <td>8</td>
+         <td>47</td>
+         <td>10</td>
+         <td>8</td>
+      </tr>
+      <tr>
+         <td>13</td>
+         <td>2</td>
+         <td>19</td>
+         <td>7</td>
+         <td>7</td>
+         <td>8</td>
+         <td>8</td>
+         <td>8</td>
+         <td>10</td>
+         <td>7</td>
+         <td>46</td>
+         <td>9</td>
+         <td>7</td>
+      </tr>
+      <tr>
+         <td>14</td>
+         <td>1</td>
+         <td>22</td>
+         <td>10</td>
+         <td>10</td>
+         <td>11</td>
+         <td>10</td>
+         <td>13</td>
+         <td>12</td>
+         <td>10</td>
+         <td>49</td>
+         <td>12</td>
+         <td>10</td>
+      </tr>
+      <tr>
+         <td>14</td>
+         <td>2</td>
+         <td>21</td>
+         <td>9</td>
+         <td>11</td>
+         <td>10</td>
+         <td>9</td>
+         <td>12</td>
+         <td>13</td>
+         <td>9</td>
+         <td>48</td>
+         <td>11</td>
+         <td>9</td>
+      </tr>
+      <tr>
+         <td>15</td>
+         <td>1</td>
+         <td>33</td>
+         <td>20</td>
+         <td>23</td>
+         <td>21</td>
+         <td>22</td>
+         <td>36</td>
+         <td>23</td>
+         <td>20</td>
+         <td>60</td>
+         <td>-1</td>
+         <td>21</td>
+      </tr>
+      <tr>
+         <td>15</td>
+         <td>2</td>
+         <td>32</td>
+         <td>19</td>
+         <td>22</td>
+         <td>20</td>
+         <td>21</td>
+         <td>35</td>
+         <td>22</td>
+         <td>19</td>
+         <td>59</td>
+         <td>-1</td>
+         <td>20</td>
+      </tr>
+      <tr>
+         <td>16</td>
+         <td>1</td>
+         <td>35</td>
+         <td>22</td>
+         <td>25</td>
+         <td>24</td>
+         <td>24</td>
+         <td>38</td>
+         <td>25</td>
+         <td>22</td>
+         <td>62</td>
+         <td>-1</td>
+         <td>23</td>
+      </tr>
+      <tr>
+         <td>16</td>
+         <td>2</td>
+         <td>34</td>
+         <td>21</td>
+         <td>24</td>
+         <td>25</td>
+         <td>23</td>
+         <td>37</td>
+         <td>24</td>
+         <td>23</td>
+         <td>61</td>
+         <td>-1</td>
+         <td>22</td>
+      </tr>
+   </toffiles>
+   <frames>
+      <tr>
+         <td/>
+         <td>[1827 1829 1829 1827 7304]</td>
+         <td>[1736 1738 1738 1736 6940]</td>
+         <td>[1384 1387 1387 1384 5535]</td>
+         <td>[1613 1615 1615 1613 6448]</td>
+         <td>[3806 3809 3809 3806 15221]</td>
+         <td>[3853 3857 3857 3853 15411]</td>
+         <td>[2359 2362 2362 2359 9430]</td>
+         <td>[2722 2726 2726 2722 10885]</td>
+         <td>[1266 1268 1268 1266 5062]</td>
+         <td>[1150 1154 1154 1150 4598]</td>
+         <td>[2637 2640 2640 2637 10546]</td>
+         <td>[2267 2270 2270 2267 9066]</td>
+         <td>[1168 1170 1170 1168 4670]</td>
+         <td>[994 996 996 994 3971]</td>
+         <td>[1066 1068 1068 1066 4258]</td>
+         <td>[1160 1162 1162 1160 4635]</td>
+         <td>[3305 3308 3308 3305 13218]</td>
+         <td>[2613 2618 2618 2613 10449]</td>
+         <td>[3032 3035 3035 3032 12095]</td>
+         <td>[2756 2759 2759 2756 10969]</td>
+         <td>[2612 2614 2614 2612 10445]</td>
+         <td>[2479 2481 2481 2479 9912]</td>
+         <td>[1075 1076 1076 1075 4298]</td>
+         <td>[1038 1040 1040 1038 4147]</td>
+         <td>[1441 1443 1443 1441 5762]</td>
+         <td>[1793 1795 1795 1793 7170]</td>
+         <td>[3477 3480 3480 3477 13906]</td>
+         <td>[3136 3139 3139 3136 12539]</td>
+         <td>[1663 1667 1667 1663 6648]</td>
+         <td>[1779 1781 1781 1779 7110]</td>
+         <td>[1276 1278 1278 1276 5101]</td>
+         <td>[1232 1234 1234 1232 4924]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1843 1846 1846 1843 7370]</td>
+         <td>[1732 1734 1734 1732 6923]</td>
+         <td>[3051 3053 3053 3051 12200]</td>
+         <td>[3265 3275 3275 3265 13058]</td>
+         <td>[5005 5009 5009 5005 20016]</td>
+         <td>[4741 4745 4745 4741 18960]</td>
+         <td>[3701 3704 3704 3701 14801]</td>
+         <td>[3600 3603 3603 3600 14395]</td>
+         <td>[1771 1773 1773 1771 7083]</td>
+         <td>[2198 2200 2200 2198 8790]</td>
+         <td>[2770 2773 2773 2770 11076]</td>
+         <td>[2696 2699 2699 2696 10782]</td>
+         <td>[1847 1848 1848 1847 7384]</td>
+         <td>[1162 1165 1165 1162 4648]</td>
+         <td>[1331 1333 1333 1331 5321]</td>
+         <td>[2080 2082 2082 2080 8314]</td>
+         <td>[3832 3836 3836 3832 15326]</td>
+         <td>[2232 2234 2234 2232 8926]</td>
+         <td>[4235 4240 4240 4235 16937]</td>
+         <td>[4092 4096 4096 4092 16364]</td>
+         <td>[2314 2316 2316 2314 9253]</td>
+         <td>[3424 3428 3428 3424 13695]</td>
+         <td>[2842 2845 2845 2842 11363]</td>
+         <td>[3093 3096 3096 3093 12372]</td>
+         <td>[3028 3030 3030 3028 12109]</td>
+         <td>[3707 3711 3711 3707 14828]</td>
+         <td>[3236 3239 3239 3236 12942]</td>
+         <td>[3661 3664 3664 3661 14642]</td>
+         <td>[1688 1691 1691 1688 6751]</td>
+         <td>[1972 1976 1976 1972 7887]</td>
+         <td>[1165 1167 1167 1165 4658]</td>
+         <td>[2340 2342 2342 2340 9357]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1379 1382 1382 1379 5513]</td>
+         <td>[1759 1761 1761 1759 7033]</td>
+         <td>[2815 2817 2817 2815 11259]</td>
+         <td>[2587 2590 2590 2587 10346]</td>
+         <td>[4539 4543 4543 4539 18153]</td>
+         <td>[3567 3570 3570 3567 14267]</td>
+         <td>[2707 2710 2710 2707 10826]</td>
+         <td>[2365 2368 2368 2365 9460]</td>
+         <td>[2489 2491 2491 2489 9953]</td>
+         <td>[2434 2437 2437 2434 9733]</td>
+         <td>[1954 1956 1956 1954 7814]</td>
+         <td>[2225 2227 2227 2225 8897]</td>
+         <td>[2603 2605 2605 2603 10406]</td>
+         <td>[2383 2385 2385 2383 9529]</td>
+         <td>[871 873 873 871 3482]</td>
+         <td>[1066 1068 1068 1066 4259]</td>
+         <td>[2252 2255 2255 2252 9003]</td>
+         <td>[1800 1803 1803 1800 7197]</td>
+         <td>[1820 1822 1822 1820 7275]</td>
+         <td>[2654 2657 2657 2654 10613]</td>
+         <td>[1810 1813 1813 1810 7237]</td>
+         <td>[2514 2517 2517 2514 10056]</td>
+         <td>[2487 2489 2489 2487 9943]</td>
+         <td>[2751 2753 2753 2751 10999]</td>
+         <td>[2590 2593 2593 2590 10359]</td>
+         <td>[2889 2892 2892 2889 11553]</td>
+         <td>[2498 2502 2502 2498 2196]</td>
+         <td>[2969 2971 2971 2969 11872]</td>
+         <td>[1134 1136 1136 1134 4531]</td>
+         <td>[1163 1165 1165 1163 4648]</td>
+         <td>[1294 1296 1296 1294 5174]</td>
+         <td>[1453 1455 1455 1453 5811]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[2166 2168 2168 2166 8659]</td>
+         <td>[1263 1265 1265 1263 5048]</td>
+         <td>[3280 3283 3283 3280 13119]</td>
+         <td>[3276 3279 3279 3276 13102]</td>
+         <td>[3522 3525 3525 3522 14088]</td>
+         <td>[4212 4215 4215 4212 16847]</td>
+         <td>[3259 3262 3262 3259 13031]</td>
+         <td>[3523 3526 3526 3523 14089]</td>
+         <td>[1385 1387 1387 1385 5536]</td>
+         <td>[1370 1371 1371 1370 5477]</td>
+         <td>[3303 3307 3307 3303 13212]</td>
+         <td>[2487 2490 2490 2487 9947]</td>
+         <td>[1655 1657 1657 1655 6618]</td>
+         <td>[1830 1832 1832 1830 7314]</td>
+         <td>[1181 1183 1183 1181 4721]</td>
+         <td>[962 964 964 962 3845]</td>
+         <td>[1768 1771 1771 1768 7071]</td>
+         <td>[2256 2259 2259 2256 9021]</td>
+         <td>[2789 2791 2791 2789 11152]</td>
+         <td>[2100 2103 2103 2100 8397]</td>
+         <td>[1999 2002 2002 1999 7994]</td>
+         <td>[2579 2581 2581 2579 10313]</td>
+         <td>[1919 1921 1921 1919 7674]</td>
+         <td>[2599 2601 2601 2599 10393]</td>
+         <td>[3156 3158 3158 3156 12622]</td>
+         <td>[3817 3820 3820 3817 15264]</td>
+         <td>[3400 3403 3403 3400 13598]</td>
+         <td>[3843 3846 3846 3843 15367]</td>
+         <td>[1935 1937 1937 1935 7738]</td>
+         <td>[2213 2215 2215 2213 8850]</td>
+         <td>[1787 1790 1790 1787 7148]</td>
+         <td>[1812 1814 1814 1812 7245]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1849 1852 1852 1849 7394]</td>
+         <td>[1653 1657 1657 1653 6611]</td>
+         <td>[4974 4978 4978 4974 19893]</td>
+         <td>[2069 2071 2071 2069 8271]</td>
+         <td>[6091 6096 6096 6091 24361]</td>
+         <td>[5936 5941 5941 5936 23741]</td>
+         <td>[3277 3280 3280 3277 13107]</td>
+         <td>[2332 2335 2335 2332 9326]</td>
+         <td>[1475 1477 1477 1475 5897]</td>
+         <td>[3201 3204 3204 3201 12798]</td>
+         <td>[3278 3281 3281 3278 13108]</td>
+         <td>[2085 2088 2088 2085 8340]</td>
+         <td>[2246 2248 2248 2246 8980]</td>
+         <td>[1885 1887 1887 1885 7540]</td>
+         <td>[2479 2482 2482 2479 9916]</td>
+         <td>[3125 3128 3128 3125 12499]</td>
+         <td>[3938 3941 3941 3938 15748]</td>
+         <td>[3880 3883 3883 3880 15515]</td>
+         <td>[5204 5208 5208 5204 20812]</td>
+         <td>[3927 3930 3930 3927 15705]</td>
+         <td>[3202 3205 3205 3202 12805]</td>
+         <td>[3422 3425 3425 3422 13685]</td>
+         <td>[3326 3329 3329 3326 13302]</td>
+         <td>[2783 2786 2786 2783 11129]</td>
+         <td>[4519 4523 4523 4519 18071]</td>
+         <td>[4857 4866 4866 4857 19425]</td>
+         <td>[3002 3005 3005 3002 12003]</td>
+         <td>[2523 2526 2526 2523 10087]</td>
+         <td>[1938 1941 1941 1938 7750]</td>
+         <td>[2136 2138 2138 2136 8540]</td>
+         <td>[3017 3024 3024 3017 12065]</td>
+         <td>[2986 2989 2989 2986 11939]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1825 1827 1827 1825 7297]</td>
+         <td>[2387 2390 2390 2387 9546]</td>
+         <td>[2844 2847 2847 2844 11375]</td>
+         <td>[2820 2823 2823 2820 11276]</td>
+         <td>[2721 2723 2723 2721 10882]</td>
+         <td>[2417 2419 2419 2417 9663]</td>
+         <td>[2011 2014 2014 2011 8041]</td>
+         <td>[2227 2229 2229 2227 8906]</td>
+         <td>[1981 1983 1983 1981 7920]</td>
+         <td>[1622 1625 1625 1622 6485]</td>
+         <td>[2379 2382 2382 2379 9516]</td>
+         <td>[2087 2089 2089 2087 8344]</td>
+         <td>[1160 1162 1162 1160 4638]</td>
+         <td>[1162 1164 1164 1162 4646]</td>
+         <td>[1333 1335 1335 1333 5331]</td>
+         <td>[1383 1386 1386 1383 5531]</td>
+         <td>[1818 1820 1820 1818 7270]</td>
+         <td>[1999 2001 2001 1999 7992]</td>
+         <td>[1874 1877 1877 1874 7493]</td>
+         <td>[1595 1597 1597 1595 6378]</td>
+         <td>[2900 2903 2903 2900 11599]</td>
+         <td>[3174 3177 3177 3174 12692]</td>
+         <td>[1673 1675 1675 1673 6688]</td>
+         <td>[1776 1778 1778 1776 7100]</td>
+         <td>[2306 2309 2309 2306 9223]</td>
+         <td>[2055 2057 2057 2055 8219]</td>
+         <td>[2751 2753 2753 2751 11000]</td>
+         <td>[3615 3618 3618 3615 14456]</td>
+         <td>[1997 1999 1999 1997 7987]</td>
+         <td>[1595 1598 1598 1595 6378]</td>
+         <td>[1630 1632 1632 1630 6517]</td>
+         <td>[1591 1593 1593 1591 6361]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1579 1582 1582 1579 6314]</td>
+         <td>[2025 2027 2027 2025 8097]</td>
+         <td>[2549 2552 2552 2549 10196]</td>
+         <td>[2950 2953 2953 2950 11797]</td>
+         <td>[5417 5421 5421 5417 21662]</td>
+         <td>[5472 5477 5477 5472 21883]</td>
+         <td>[3765 3768 3768 3765 15055]</td>
+         <td>[3173 3176 3176 3173 12687]</td>
+         <td>[2216 2220 2220 2216 8861]</td>
+         <td>[2163 2165 2165 2163 8647]</td>
+         <td>[4355 4360 4360 4355 17417]</td>
+         <td>[3587 3593 3593 3587 14345]</td>
+         <td>[2342 2345 2345 2342 9364]</td>
+         <td>[2921 2924 2924 2921 11681]</td>
+         <td>[1238 1239 1239 1238 4948]</td>
+         <td>[1528 1530 1530 1528 6108]</td>
+         <td>[4535 4540 4540 4535 18134]</td>
+         <td>[2827 2830 2830 2827 11305]</td>
+         <td>[4550 4553 4553 4550 18199]</td>
+         <td>[6344 6349 6349 6344 25373]</td>
+         <td>[4396 4400 4400 4396 17581]</td>
+         <td>[4872 4876 4876 4872 19483]</td>
+         <td>[2156 2159 2159 2156 8621]</td>
+         <td>[1878 1881 1881 1878 7510]</td>
+         <td>[4202 4206 4206 4202 16807]</td>
+         <td>[4333 4338 4338 4333 17331]</td>
+         <td>[3637 3641 3641 3637 14544]</td>
+         <td>[3624 3628 3628 3624 14495]</td>
+         <td>[2642 2646 2646 2642 10566]</td>
+         <td>[2733 2736 2736 2733 10930]</td>
+         <td>[2381 2385 2385 2381 9519]</td>
+         <td>[2872 2874 2874 2872 11484]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1517 1521 1521 1517 6064]</td>
+         <td>[1996 1998 1998 1996 7981]</td>
+         <td>[2012 2014 2014 2012 8044]</td>
+         <td>[2029 2031 2031 2029 8114]</td>
+         <td>[1932 1934 1934 1932 7727]</td>
+         <td>[2065 2068 2068 2065 8257]</td>
+         <td>[2808 2811 2811 2808 11229]</td>
+         <td>[2695 2697 2697 2695 10778]</td>
+         <td>[1599 1601 1601 1599 6395]</td>
+         <td>[1448 1450 1450 1448 5791]</td>
+         <td>[2972 2975 2975 2972 11882]</td>
+         <td>[3320 3323 3323 3320 13278]</td>
+         <td>[1813 1816 1816 1813 7251]</td>
+         <td>[1686 1688 1688 1686 6740]</td>
+         <td>[1276 1278 1278 1276 5098]</td>
+         <td>[1193 1196 1196 1193 4772]</td>
+         <td>[2074 2077 2077 2074 8294]</td>
+         <td>[2141 2143 2143 2141 8560]</td>
+         <td>[1502 1504 1504 1502 6005]</td>
+         <td>[1555 1557 1557 1555 6218]</td>
+         <td>[2933 2936 2936 2933 11729]</td>
+         <td>[3334 3337 3337 3334 13335]</td>
+         <td>[1617 1619 1619 1617 6464]</td>
+         <td>[1701 1703 1703 1701 6800]</td>
+         <td>[1613 1615 1615 1613 6449]</td>
+         <td>[1716 1717 1717 1716 6861]</td>
+         <td>[3738 3741 3741 3738 14949]</td>
+         <td>[3696 3699 3699 3696 14781]</td>
+         <td>[1736 1738 1738 1736 6942]</td>
+         <td>[1645 1648 1648 1645 6578]</td>
+         <td>[2361 2364 2364 2361 9438]</td>
+         <td>[2500 2502 2502 2500 9999]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[2059 2061 2061 2059 8233]</td>
+         <td>[2637 2640 2640 2637 10542]</td>
+         <td>[2357 2360 2360 2357 9427]</td>
+         <td>[2701 2704 2704 2701 10799]</td>
+         <td>[5875 5879 5879 5875 23494]</td>
+         <td>[5307 5311 5311 5307 21226]</td>
+         <td>[2664 2667 2667 2664 10653]</td>
+         <td>[2687 2691 2691 2687 10746]</td>
+         <td>[2712 2715 2715 2712 10847]</td>
+         <td>[2899 2902 2902 2899 5791]</td>
+         <td>[3822 3825 3825 3822 15287]</td>
+         <td>[3465 3468 3468 3465 13278]</td>
+         <td>[1969 1971 1971 1969 7872]</td>
+         <td>[1965 1968 1968 1965 7858]</td>
+         <td>[1227 1228 1228 1227 4905]</td>
+         <td>[1530 1533 1533 1530 6117]</td>
+         <td>[3073 3076 3076 3073 12286]</td>
+         <td>[2963 2968 2968 2963 11849]</td>
+         <td>[2933 2936 2936 2933 11729]</td>
+         <td>[2788 2791 2791 2788 6218]</td>
+         <td>[4378 4383 4383 4378 17511]</td>
+         <td>[4336 4340 4340 4336 17338]</td>
+         <td>[1450 1453 1453 1450 5797]</td>
+         <td>[2347 2350 2350 2347 9384]</td>
+         <td>[3390 3393 3393 3390 6449]</td>
+         <td>[3313 3316 3316 3313 13249]</td>
+         <td>[2447 2450 2450 2447 9786]</td>
+         <td>[3115 3117 3117 3115 6449]</td>
+         <td>[2218 2221 2221 2218 8870]</td>
+         <td>[2239 2242 2242 2239 8950]</td>
+         <td>[1686 1688 1688 1686 6741]</td>
+         <td>[1704 1706 1706 1704 6814]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[2630 2633 2633 2630 10519]</td>
+         <td>[2906 2909 2909 2906 11619]</td>
+         <td>[4614 4618 4618 4614 18453]</td>
+         <td>[5641 5645 5645 5641 22559]</td>
+         <td>[4068 4072 4072 4068 16271]</td>
+         <td>[5545 5549 5549 5545 22175]</td>
+         <td>[1963 1966 1966 1963 7851]</td>
+         <td>[3190 3192 3192 3190 12754]</td>
+         <td>[4363 4367 4367 4363 17447]</td>
+         <td>[5244 5248 5248 5244 20972]</td>
+         <td>[3536 3539 3539 3536 14141]</td>
+         <td>[4045 4048 4048 4045 16177]</td>
+         <td>[5859 5865 5865 5859 23431]</td>
+         <td>[4150 4153 4153 4150 16594]</td>
+         <td>[1987 1990 1990 1987 7944]</td>
+         <td>[2656 2659 2659 2656 10620]</td>
+         <td>[3576 3580 3580 3576 14301]</td>
+         <td>[4697 4701 4701 4697 18787]</td>
+         <td>[5338 5343 5343 5338 21346]</td>
+         <td>[3331 3334 3334 3331 13321]</td>
+         <td>[3051 3054 3054 3051 12204]</td>
+         <td>[3695 3698 3698 3695 14779]</td>
+         <td>[3173 3176 3176 3173 12692]</td>
+         <td>[3547 3551 3551 3547 14185]</td>
+         <td>[6348 6353 6353 6348 25389]</td>
+         <td>[5331 5335 5335 5331 21319]</td>
+         <td>[2638 2641 2641 2638 10550]</td>
+         <td>[3042 3044 3044 3042 12166]</td>
+         <td>[2214 2217 2217 2214 8853]</td>
+         <td>[2449 2455 2455 2449 9790]</td>
+         <td>[1512 1514 1514 1512 6044]</td>
+         <td>[1825 1827 1827 1825 7297]</td>
+      </tr>
+      <tr>
+         <td/>
+         <td>[1412 1418 1418 1412 5647]</td>
+         <td>[1907 1909 1909 1907 7625]</td>
+         <td>[1553 1560 1560 1553 6209]</td>
+         <td>[1826 1828 1828 1826 7300]</td>
+         <td>[2685 2688 2688 2685 10736]</td>
+         <td>[2199 2202 2202 2199 8793]</td>
+         <td>[2276 2278 2278 2276 9100]</td>
+         <td>[2205 2207 2207 2205 8814]</td>
+         <td>[1696 1699 1699 1696 6781]</td>
+         <td>[1809 1812 1812 1809 7234]</td>
+         <td>[3391 3394 3394 3391 13561]</td>
+         <td>[3493 3496 3496 3493 13968]</td>
+         <td>[1482 1484 1484 1482 5924]</td>
+         <td>[1407 1409 1409 1407 5628]</td>
+         <td>[1027 1029 1029 1027 4104]</td>
+         <td>[1042 1044 1044 1042 4162]</td>
+         <td>[1859 1861 1861 1859 7431]</td>
+         <td>[2180 2182 2182 2180 8717]</td>
+         <td>[1842 1844 1844 1842 7364]</td>
+         <td>[2005 2008 2008 2005 8017]</td>
+         <td>[2768 2772 2772 2768 11069]</td>
+         <td>[2410 2414 2414 2410 9640]</td>
+         <td>[1546 1548 1548 1546 6181]</td>
+         <td>[1992 1994 1994 1992 7963]</td>
+         <td>[2281 2283 2283 2281 9120]</td>
+         <td>[2263 2266 2266 2263 9050]</td>
+         <td>[1638 1640 1640 1638 6551]</td>
+         <td>[1622 1624 1624 1622 6485]</td>
+         <td>[1188 1191 1191 1188 4748]</td>
+         <td>[1436 1438 1438 1436 5741]</td>
+         <td>[1794 1796 1796 1794 7174]</td>
+         <td>[1361 1362 1362 1361 5442]</td>
+      </tr>
+   </frames>
+   <skel_angles>
+      <type>bvh</type>
+      <mass>1</mass>
+      <length>1</length>
+      <angle>deg</angle>
+      <documentation/>
+      <name>test.bvh</name>
+      <tree>
+         <item>
+            <name>Hips</name>
+            <id>0</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>0</parent>
+            <order>zxy</order>
+            <rotInd>[5 6 4]</rotInd>
+            <posInd>[1 2 3]</posInd>
+            <children>[2 7 12]</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightUpLeg</name>
+            <id>1</id>
+            <offset>[-12.719393604653 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>1</parent>
+            <order>zxy</order>
+            <rotInd>[8 9 7]</rotInd>
+            <posInd/>
+            <children>3</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightLeg</name>
+            <id>2</id>
+            <offset>[0 -43.429100912261 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>2</parent>
+            <order>zxy</order>
+            <rotInd>[11 12 10]</rotInd>
+            <posInd/>
+            <children>4</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightFoot</name>
+            <id>3</id>
+            <offset>[0 -44.8767017425826 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>3</parent>
+            <order>zxy</order>
+            <rotInd>[14 15 13]</rotInd>
+            <posInd/>
+            <children>5</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightToeBase</name>
+            <id>4</id>
+            <offset>[0 0 15.1507020887566]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>4</parent>
+            <order>zxy</order>
+            <rotInd>[17 18 16]</rotInd>
+            <posInd/>
+            <children>6</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>5</id>
+            <offset>[0 0 7.49999965609858]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>5</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftUpLeg</name>
+            <id>6</id>
+            <offset>[12.719394002717 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>1</parent>
+            <order>zxy</order>
+            <rotInd>[20 21 19]</rotInd>
+            <posInd/>
+            <children>8</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftLeg</name>
+            <id>7</id>
+            <offset>[0 -43.4291012978853 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>7</parent>
+            <order>zxy</order>
+            <rotInd>[23 24 22]</rotInd>
+            <posInd/>
+            <children>9</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftFoot</name>
+            <id>8</id>
+            <offset>[0 -44.8767016748485 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>8</parent>
+            <order>zxy</order>
+            <rotInd>[26 27 25]</rotInd>
+            <posInd/>
+            <children>10</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftToeBase</name>
+            <id>9</id>
+            <offset>[0 0 15.1507011912234]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>9</parent>
+            <order>zxy</order>
+            <rotInd>[29 30 28]</rotInd>
+            <posInd/>
+            <children>11</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>10</id>
+            <offset>[0 0 7.5000010571191]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>10</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+         <item>
+            <name>Spine</name>
+            <id>11</id>
+            <offset>[0 0.1 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>1</parent>
+            <order>zxy</order>
+            <rotInd>[32 33 31]</rotInd>
+            <posInd/>
+            <children>13</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Spine1</name>
+            <id>12</id>
+            <offset>[0 24.5913012437421 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>12</parent>
+            <order>zxy</order>
+            <rotInd>[35 36 34]</rotInd>
+            <posInd/>
+            <children>[14 17 25]</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Neck</name>
+            <id>13</id>
+            <offset>[0 24.8462964506057 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>13</parent>
+            <order>zxy</order>
+            <rotInd>[38 39 37]</rotInd>
+            <posInd/>
+            <children>15</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Head</name>
+            <id>14</id>
+            <offset>[0 9.27524780924562 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>14</parent>
+            <order>zxy</order>
+            <rotInd>[41 42 40]</rotInd>
+            <posInd/>
+            <children>16</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>15</id>
+            <offset>[0 11.4999962169752 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>15</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftShoulder</name>
+            <id>16</id>
+            <offset>[0 24.8462964506057 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>13</parent>
+            <order>zxy</order>
+            <rotInd>[44 45 43]</rotInd>
+            <posInd/>
+            <children>18</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftArm</name>
+            <id>17</id>
+            <offset>[0 12.4881979654096 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>17</parent>
+            <order>zxy</order>
+            <rotInd>[47 48 46]</rotInd>
+            <posInd/>
+            <children>19</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftForeArm</name>
+            <id>18</id>
+            <offset>[0 25.9758046908119 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>18</parent>
+            <order>zxy</order>
+            <rotInd>[50 51 49]</rotInd>
+            <posInd/>
+            <children>20</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftHand</name>
+            <id>19</id>
+            <offset>[0 24.5542024364365 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>19</parent>
+            <order>zxy</order>
+            <rotInd>[53 54 52]</rotInd>
+            <posInd/>
+            <children>[21 23]</children>
+            <limits/>
+         </item>
+         <item>
+            <name>LeftHandThumb</name>
+            <id>20</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>20</parent>
+            <order>zxy</order>
+            <rotInd>[56 57 55]</rotInd>
+            <posInd/>
+            <children>22</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>21</id>
+            <offset>[0 0 10.0000003353624]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>21</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+         <item>
+            <name>L_Wrist_End</name>
+            <id>22</id>
+            <offset>[0 9.99999671153582 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>20</parent>
+            <order>zxy</order>
+            <rotInd>[59 60 58]</rotInd>
+            <posInd/>
+            <children>24</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>23</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>23</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+         <item>
+            <name>RightShoulder</name>
+            <id>24</id>
+            <offset>[0 24.8462964506057 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>13</parent>
+            <order>zxy</order>
+            <rotInd>[62 63 61]</rotInd>
+            <posInd/>
+            <children>26</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightArm</name>
+            <id>25</id>
+            <offset>[0 12.4882003723488 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>25</parent>
+            <order>zxy</order>
+            <rotInd>[65 66 64]</rotInd>
+            <posInd/>
+            <children>27</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightForeArm</name>
+            <id>26</id>
+            <offset>[0 25.9757993755427 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>26</parent>
+            <order>zxy</order>
+            <rotInd>[68 69 67]</rotInd>
+            <posInd/>
+            <children>28</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightHand</name>
+            <id>27</id>
+            <offset>[0 24.5541985501975 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>27</parent>
+            <order>zxy</order>
+            <rotInd>[71 72 70]</rotInd>
+            <posInd/>
+            <children>[29 31]</children>
+            <limits/>
+         </item>
+         <item>
+            <name>RightHandThumb</name>
+            <id>28</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>28</parent>
+            <order>zxy</order>
+            <rotInd>[74 75 73]</rotInd>
+            <posInd/>
+            <children>30</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>29</id>
+            <offset>[0 0 9.99999735957563]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>29</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+         <item>
+            <name>R_Wrist_End</name>
+            <id>30</id>
+            <offset>[0 13.7500030777855 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Zrotation</item>
+               <item>Xrotation</item>
+               <item>Yrotation</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>28</parent>
+            <order>zxy</order>
+            <rotInd>[77 78 76]</rotInd>
+            <posInd/>
+            <children>32</children>
+            <limits/>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>31</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels/>
+            <bodymass/>
+            <confmass/>
+            <parent>31</parent>
+            <order/>
+            <rotInd/>
+            <posInd/>
+            <children/>
+            <limits/>
+         </item>
+      </tree>
+   </skel_angles>
+   <skel_pos>
+      <type>bvh</type>
+      <mass>1</mass>
+      <length>1</length>
+      <angle>deg</angle>
+      <documentation/>
+      <name>test.bvh</name>
+      <tree>
+         <item>
+            <name>Hips</name>
+            <id>0</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>0</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[1 2 3]</posInd>
+            <children>[2 7 12]</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightUpLeg</name>
+            <id>1</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>1</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[4 5 6]</posInd>
+            <children>3</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightLeg</name>
+            <id>2</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>2</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[7 8 9]</posInd>
+            <children>4</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightFoot</name>
+            <id>3</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>3</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[10 11 12]</posInd>
+            <children>5</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightToeBase</name>
+            <id>4</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>4</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[13 14 15]</posInd>
+            <children>6</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>5</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>5</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[16 17 18]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftUpLeg</name>
+            <id>6</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>1</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[19 20 21]</posInd>
+            <children>8</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftLeg</name>
+            <id>7</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>7</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[22 23 24]</posInd>
+            <children>9</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftFoot</name>
+            <id>8</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>8</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[25 26 27]</posInd>
+            <children>10</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftToeBase</name>
+            <id>9</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>9</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[28 29 30]</posInd>
+            <children>11</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>10</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>10</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[31 32 33]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Spine</name>
+            <id>11</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>1</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[34 35 36]</posInd>
+            <children>13</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Spine1</name>
+            <id>12</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>12</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[37 38 39]</posInd>
+            <children>[14 17 25]</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Neck</name>
+            <id>13</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>13</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[40 41 42]</posInd>
+            <children>15</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Head</name>
+            <id>14</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>14</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[43 44 45]</posInd>
+            <children>16</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>15</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>15</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[46 47 48]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftShoulder</name>
+            <id>16</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>13</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[49 50 51]</posInd>
+            <children>18</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftArm</name>
+            <id>17</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>17</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[52 53 54]</posInd>
+            <children>19</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftForeArm</name>
+            <id>18</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>18</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[55 56 57]</posInd>
+            <children>20</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftHand</name>
+            <id>19</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>19</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[58 59 60]</posInd>
+            <children>[21 23]</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>LeftHandThumb</name>
+            <id>20</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>20</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[61 62 63]</posInd>
+            <children>22</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>21</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>21</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[64 65 66]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>L_Wrist_End</name>
+            <id>22</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>20</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[67 68 69]</posInd>
+            <children>24</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>23</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>23</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[70 71 72]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightShoulder</name>
+            <id>24</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>13</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[73 74 75]</posInd>
+            <children>26</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightArm</name>
+            <id>25</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>25</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[76 77 78]</posInd>
+            <children>27</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightForeArm</name>
+            <id>26</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>26</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[79 80 81]</posInd>
+            <children>28</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightHand</name>
+            <id>27</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>27</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[82 83 84]</posInd>
+            <children>[29 31]</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>RightHandThumb</name>
+            <id>28</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>28</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[85 86 87]</posInd>
+            <children>30</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>29</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>29</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[88 89 90]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>R_Wrist_End</name>
+            <id>30</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>28</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[91 92 93]</posInd>
+            <children>32</children>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+         <item>
+            <name>Site</name>
+            <id>31</id>
+            <offset>[0 0 0]</offset>
+            <orientation/>
+            <axis>[0 0 0]</axis>
+            <axisOrder/>
+            <C>[1 0 0;0 1 0;0 0 1]</C>
+            <Cinv>[1 0 0;0 1 0;0 0 1]</Cinv>
+            <channels>
+               <item>Xposition</item>
+               <item>Yposition</item>
+               <item>Zposition</item>
+            </channels>
+            <bodymass/>
+            <confmass/>
+            <parent>31</parent>
+            <order>xyz</order>
+            <rotInd/>
+            <posInd>[94 95 96]</posInd>
+            <children/>
+            <limits/>
+            <relative>[false]</relative>
+         </item>
+      </tree>
+   </skel_pos>
+   <train_subjects>[1 7 8 9 11]</train_subjects>
+   <val_subjects>[5 6]</val_subjects>
+   <test_subjects>[2 3 4 10]</test_subjects>
+   <w0>[-1.38382776045614 -3.16734304390158 0.413636308164621 1841.10702774543 4955.28462344526 1563.4453958977 -1.3751053014935 -3.16142330949792 0.43359546897471 2030.24045958284 4913.63796569427 1611.6313636891 -1.37882393899288 -3.161671325234 0.427248048577424 2120.16013833049 4927.3896940454 1601.45740899546 -1.37711126488867 -3.1635275001196 0.43614424640396 2108.05645658467 4916.35805859584 1600.44815650564 -1.37617713453938 -3.16256766548869 0.440809992980791 2097.39151027444 4880.94465755369 1605.73247183927 -1.37384065585639 -3.14962908578124 0.415338270470213 1935.45174694685 4950.24580396107 1618.08381523153 -1.3767900857079 -3.1563455676984 0.437827264451112 1974.51295625891 4926.35446379868 1597.83264487845 -1.37729100357321 -3.16179684618815 0.423258143295384 2150.65184102118 4896.16095051376 1611.90470612013 -1.38660153616472 -3.18292551468494 0.441478757753939 2044.45852504166 4935.11727984793 1481.22752752863 -1.3781113489611 -3.16311596375085 0.402183069899382 1968.6409782267 5003.45790523123 1605.95713724922 -1.38253857374534 -3.18032944555565 0.435684449022933 2098.44023766473 4926.55465688236 1500.2785741283 -1.35517119070383 3.13934427144743 2.76026318023792 1761.27853428116 -5078.00659454077 1606.2649598335 -1.3560116169585 3.12772502131602 2.73800506759448 2036.16389517962 -5139.3385621042 1614.10120661275 -1.35263543024478 3.12882528385675 2.7516891353684 2123.31672105987 -5118.71133744668 1613.57176689128 -1.35680541595716 3.13109618263462 2.74030306814628 2092.27851350193 -5135.84853074472 1610.17199274892 -1.3563050564389 3.12931805155389 2.74473744708868 2031.70078497138 -5167.93301206581 1612.92305082439 -1.35273482943409 3.12306622510911 2.73860727855607 1969.80390766216 -5128.73876071113 1632.77883867694 -1.35115947363283 3.12541720944921 2.7424245004417 1937.0584290357 -5119.78981556288 1631.56648087072 -1.35529597940683 3.129067978444 2.7681840012377 2219.9656703358 -5148.45307557174 1613.04401647351 -1.36358353731923 3.1489218957052 2.7695783975645 1990.9596621548 -5123.81055155997 1568.80481574437 -1.35303115989022 3.12880171332043 2.72713189442747 2220.22912867327 -5041.76480051425 1612.21017894355 -1.3670893792209 3.14300994840839 2.74314804826489 2083.18240070009 -4912.17282366308 1561.0785790774 -1.35460453835517 -3.09585375458873 -0.415010681416711 -1846.7776610084 5215.04650469073 1491.97246576518 -1.3574174867254 -3.07852558485507 -0.38991571041581 -1689.70442604909 5178.85392024206 1490.13152959193 -1.35785874492557 -3.08036525681956 -0.393393763004446 -1598.17192178668 5172.67658729266 1487.87569770002 -1.35656698237384 -3.08116345944562 -0.386668372798362 -1606.31611907969 5191.68137642844 1493.60373735271 -1.3562743457011 -3.07982159789068 -0.382865371867181 -1620.59486278793 5171.65873305247 1496.43704696787 -1.36295424416142 -3.07297741832933 -0.405919808477019 -1769.59647655694 5185.36115454991 1476.99340929046 -1.36202017323371 -3.07639612744257 -0.385859472962769 -1741.81111844229 5208.24936307788 1464.82464578145 -1.35633305520994 -3.07903933034276 -0.395738228536372 -1571.22149997798 5137.01858150498 1498.17612798791 -1.34888172298336 -3.102960692595 -0.382788963877425 -1670.99215489414 5211.98574196124 1528.38799771705 -1.35664059764913 -3.08015372871798 -0.419008729038864 -1762.35984904783 5158.93496663761 1496.30302817594 -1.33953525239742 -3.10064240051082 -0.434419468030056 -1609.81534310074 5177.33597262935 1537.89671533582 -1.29084725708861 -3.20353825281863 -2.72857298700043 -1794.78972871109 -3722.69891503676 1574.89272604599 -1.31323216561859 -3.22724581097479 -2.75817510960254 -1641.69705160757 -3863.42077254474 1543.98806588784 -1.31327740720992 -3.22661133378847 -2.75939529010902 -1525.62265953577 -3867.76578824123 1550.84956330304 -1.31252617375512 -3.22455904685998 -2.75806537234578 -1585.26651928664 -3848.7127782811 1549.93473021857 -1.31332016240395 -3.22574515339158 -2.75330005891557 -1637.17374540766 -3867.31734917197 1547.03325638793 -1.31574861632979 -3.23364633451714 -2.74452670528462 -1721.66874978818 -3884.13134701978 1540.48790236846 -1.31229903526751 -3.23226714486797 -2.75617673343893 -1734.71057764601 -3832.42135394085 1548.58303462156 -1.31261466850986 -3.22669130539521 -2.76803843215725 -1476.91338239988 -3896.7411238582 1547.97220703876 -1.30216364078597 -3.20525794988117 -2.73209048976503 -1696.04347097168 -3827.09988628541 1591.41272727883 -1.31370197737602 -3.22564758156147 -2.79582077466808 -1459.15110355738 -3879.80915963968 1551.10046698856 -1.3052820100275 -3.20681865219712 -2.73759301328735 -1590.73799072229 -3854.16900368964 1578.01760714384 1145.04940458804 1143.78109572365 512.541504956548 515.4514869776 -0.207098910824901 0.247775183068982 -0.00307515035078854 -0.00142447157470321 -0.000975698859470499 1149.67569986785 1147.59161666764 508.848621645943 508.064917088557 -0.194213629607385 0.240408539138292 0.00681997559022603 -0.0027408943961907 -0.001619026613787 1149.14071676148 1148.7989685676 519.815837182153 501.402658888552 -0.208338188251856 0.255488007488945 -0.00246049749891915 -0.000759999321030303 0.00148438698385668 1145.51133842318 1144.77392807652 514.968197319863 501.882018537695 -0.198384093827848 0.218323676298049 -0.00894780704152122 -0.00181336200488089 -0.000587205583421232]</w0>
+   <dbcameras>
+      <index2id>
+         <item>54138969</item>
+         <item>55011271</item>
+         <item>58860488</item>
+         <item>60457274</item>
+      </index2id>
+      <projectionParams>
+         <item>[1.78073316075936 -0.406788981181807 0.060314527455522 229.356879937828 -545.05971778063 5566.40769737355 -1145.75242049718 -1142.93492695902 522.375261355532 515.200848152796 -0.402352479349023 3.65971243716038 -16.7052580066115 0.00276234753897558 -0.000225052088761406]</item>
+         <item>[4.48022509401101 -0.385834967988055 -0.105130958056792 -115.569962663815 398.608717472339 5722.72441540098 1152.47747200774 1150.39177848493 527.436584238454 505.088907793058 -0.402745336206264 4.2508094145483 -22.0539107345112 -0.00302701277966435 0.00109725949707919]</item>
+         <item>[1.79914788952763 0.423250684918604 -0.0322735781122257 -589.361440841969 -310.132394379494 5622.00489351034 -1152.48806640205 -1151.54284954932 517.870792248206 494.375336436754 -0.320870353341462 2.69278869813813 -13.1868171817732 0.000812321193142549 -0.000374902315973973]</item>
+         <item>[1.30352443088238 -3.49465196408731 0.00814096376431849 62.1824509649899 -471.444401406568 4408.16045638839 -1146.01373390621 -1145.82710293817 512.283120706661 495.159286506074 -0.155877284440242 -0.166994256300602 1.02079811737157 0.00143316897764962 0.000738496608595438]</item>
+         <item>[1.78908655950909 -0.424284666309254 0.0720799586461572 153.771637994042 -522.389682030365 5518.41583252988 -1147.22503359302 -1145.66827716528 499.00592817381 519.977846628885 -0.394481072938507 3.4626818457937 -15.1452696715938 0.000341183837823926 0.00284227000772407]</item>
+         <item>[4.47634525975691 -0.381047050992324 -0.102244355205132 84.5525027138465 372.371149618511 5765.79770570304 1150.83794550008 1147.99023634131 512.680780514795 512.758214428258 -0.356988068257026 3.75774959745875 -19.7700454730214 -0.00309566931078336 -0.00119401231983077]</item>
+         <item>[1.80242848481277 0.383483077923538 -0.0255248299724776 -501.391745620415 -282.377564094102 5606.88768140239 -1151.55286371608 -1151.66002582568 523.705526416869 501.627391843099 -0.162580218955609 -0.496828446552073 3.23602916627523 0.000552118812633472 -0.00169618920155372]</item>
+         <item>[1.28845126877128 -3.53318823674979 0.02420172199689 57.2910089435518 -411.319919380958 4452.76646376833 -1144.74241169998 -1142.91228990308 509.429079380066 505.621938510836 -0.159388886105611 -0.888521487487095 7.53613104185562 0.00218456987049558 0.00113399090413154]</item>
+         <item>[1.78285209853666 -0.416476120216325 0.0667188413564728 69.6451348454337 -552.25246186523 5556.77462107277 -1146.11391168359 -1144.47184945265 509.882470184281 515.400832926532 -0.215309516773208 -0.0870118877305672 2.68026826764574 0.000834665949455694 0.00136491166897233]</item>
+         <item>[4.4854115061297 -0.352855201968042 -0.0943148168291404 -263.425988140765 389.147839608914 5814.61629938591 1151.16834173975 1149.60729176546 519.533632543487 505.242639970597 -0.381127050125041 4.5586231769819 -25.8996959567666 -0.00196182955289877 0.000507017452773803]</item>
+         <item>[1.80183769316667 0.392348322260007 -0.0271723110809493 -582.655343389898 -297.496705542667 5535.08640795047 -1149.88379987788 -1149.32330368932 528.180962004547 499.97126486344 -0.281140733960082 1.55227636284331 -6.48405732872229 0.000182192498613981 -0.0018605992353601]</item>
+         <item>[1.29730716935792 -3.51602989729469 0.0162370190837657 141.839398790222 -439.988898140491 4422.51212946715 -1147.89319482137 -1147.00277875031 505.582008761372 497.560152839493 -0.280509846665011 1.39884391819832 -4.91735368665684 0.00150626841168355 0.00159623644452347]</item>
+         <item>[1.77719758268722 -0.435632222641007 0.0725690182655801 342.988116696474 -582.340819466265 5510.00171906637 -1147.025886561 -1146.06452744702 516.490787917001 507.053069487932 -0.219900601745938 0.447953119207009 -0.718920624193125 0.002121906055037 -3.82548328737878e-05]</item>
+         <item>[4.47848987619448 -0.393140947550889 -0.106077521409188 219.838049693004 425.984113344366 5688.06420455328 1149.93754969663 1148.24236286998 500.531714925616 503.547662351707 -0.228423601116136 0.41083566623206 0.456079925349444 -0.00218700921709916 -0.00191053276402754]</item>
+         <item>[1.79134539918919 0.38923746917935 -0.0186404920752209 -433.44315072225 -299.012399368305 5668.50231506558 -1150.14598103113 -1150.39279317851 521.39657444774 495.981335936964 -0.194319173669684 0.224749173250848 -0.0843291049522052 0.00163262868440774 -0.00100065657266414]</item>
+         <item>[1.29229017183591 -3.53773811251641 0.0158744803261522 -21.2457872142906 -436.298218876375 4459.76078008223 -1146.53090145255 -1145.23409689893 516.1135059657 500.621501199292 -0.273081849816099 1.35169834338163 -4.38868875753579 0.00257974598929813 0.000352241883780849]</item>
+         <item>[1.76551876055336 -0.409046497242326 0.052491232455668 335.417076303439 -598.98204335314 5489.57220160395 -1149.73819359249 -1149.10361876213 510.31025286651 504.67655595661 -0.229697745978403 0.594339884719464 -0.908548340183442 0.00410099084938315 0.000296672395592066]</item>
+         <item>[4.49144663075919 -0.372653155264483 -0.0836829464853787 253.512177787752 477.835725844277 5576.74339769682 1148.09039227638 1145.36685578227 508.356829600304 496.461953265744 -0.152233323643628 -1.02354091703392 9.32690260848388 -0.00418640189017899 0.000299050049345869]</item>
+         <item>[1.80078165504809 0.421931199658826 -0.0474312869308258 -521.526901503115 -292.777560445652 5710.17655980293 -1149.86192700978 -1149.37328177304 511.560973017857 493.652444080185 -0.0958863239040197 -1.42511226655322 5.92720045246833 0.00146663937003034 -0.000915625517926049]</item>
+         <item>[1.26360949247824 -3.55147768355828 0.0620060442554298 -67.4832417521206 -370.425148239736 4402.49969448265 -1144.39593880882 -1144.86016439399 510.932476393313 503.954812302353 -0.267726162325407 1.08356745480237 -2.59449668327253 0.00175404675935942 0.00124393179339749]</item>
+         <item>[1.7912165245579 -0.426327943172111 0.0724763593341699 242.426256087475 -514.57994097814 5519.23644508456 -1142.80825058399 -1140.70051162908 510.126428817023 521.309017684077 -0.121732454067596 -1.33511915012015 7.21576299726027 -0.00177463294969954 0.000726917969873012]</item>
+         <item>[4.48917519007579 -0.392206095460315 -0.100930655999626 126.591936931017 450.601388926771 5743.43037982649 1152.13146083744 1151.46424492766 508.241505422498 498.121094766372 -0.373876836570997 4.16216507764439 -23.3279659351019 -0.00224952273008443 -0.00149922365365048]</item>
+         <item>[1.80372583302628 0.396514871322912 -0.0263185168618282 -514.27049200906 -268.42212717196 5617.15232056548 -1150.82581413427 -1150.2833592366 516.633938581848 503.344619293346 -0.317858570510898 2.4058539268421 -12.4765978542446 0.000341316741042002 -0.000620364467889013]</item>
+         <item>[1.2956268891259 -3.53303553444252 0.018965572004692 52.8742341604065 -440.246253872189 4455.18772526049 -1150.6046709291 -1148.92608072178 514.408194204309 498.057961205069 -0.426880269967175 3.7580043885254 -14.6655636690997 0.00326292504987152 0.000655162755361794]</item>
+         <item>[1.76986944685147 -0.433769069527008 0.0440422249649395 278.308960756714 -488.998180923324 5512.56783065743 -1147.02898250579 -1145.95494891981 503.754273587054 510.894180622473 -0.32898786443815 2.02077801306755 -7.64821011855451 0.00152534981849628 0.00274933689550261]</item>
+         <item>[4.48737847467816 -0.367540763263278 -0.0741341543439678 32.7026178408797 393.668447533124 5703.73323291945 1154.3887360776 1152.18894162099 506.038364426148 510.289720306132 -0.578786889817947 8.33000070045636 -48.0167887134094 -0.00405385590455834 -0.00131352511981268]</item>
+         <item>[1.80673525567475 0.370332958368338 -0.0494556168646975 -390.160381535991 -289.062356782327 5642.736036434 -1147.62651457751 -1146.18419865107 532.983272268859 498.221041767685 -0.289137532729066 0.940057391015823 -1.25201617128442 0.0025527642227604 -0.00344301032981763]</item>
+         <item>[1.28400933965833 -3.54768315256384 0.0513180551374769 45.6242138844382 -445.730039365839 4451.45220148751 -1144.72024323331 -1144.05645616013 508.993297715747 495.787319539077 -0.237622751706352 0.943213411182245 -2.9461115964344 0.00150323687764669 0.00198458981158548]</item>
+         <item>[1.78793482569852 -0.41775569339846 0.0790215973009394 294.562432416616 -538.22404764852 5521.66358903152 -1145.80000414269 -1144.12534187649 523.831805209091 516.936089933838 -0.238415956050393 0.595958961504881 -1.02907980758283 0.000426652662923409 -0.00156596619384762]</item>
+         <item>[4.47821778563023 -0.392917840409319 -0.109304058408162 191.7382402192 418.580904485641 5707.24778618707 1148.9884605482 1147.20825020195 504.255222882377 506.126029557171 -0.111500318558717 -2.2626808325283 15.697944386614 -0.000465041238843716 -0.00109371375457531]</item>
+         <item>[1.80151320469888 0.405176101919154 -0.0232210698857908 -489.353702784692 -260.912871584114 5638.28955005149 -1147.89543830056 -1147.63591282778 526.407087110519 506.46202139285 -0.228330462652735 0.414066419453195 -0.429061519783465 -0.00117935933416022 -0.00244469133223899]</item>
+         <item>[1.2858484557311 -3.54488592468837 0.0197731367922836 40.2318207076398 -387.242320537387 4494.73256674598 -1145.08260723605 -1143.2711801855 510.915598572608 510.218097296703 -0.230643955879412 0.55520475377523 -1.11112015274673 0.000641747597294903 0.000525172868178513]</item>
+         <item>[1.78708507529573 -0.413115777932223 0.0692950612858581 90.2834304033844 -514.070292774388 5559.83006856163 -1143.50448930981 -1141.52085007752 501.490715140005 522.084234734422 -0.261872227174099 0.950998203728114 -2.54407512772379 0.001198128444304 0.00248161312357679]</item>
+         <item>[4.48457885395485 -0.36580055296583 -0.0982579035705955 -110.661141551025 405.937044914634 5760.71710133911 1151.43695549074 1149.31934398213 523.152690653125 502.000792120331 -0.29266589086785 3.16033486154726 -22.0142018696465 -0.00217224992679679 -6.78639720686995e-05]</item>
+         <item>[1.80609998777719 0.392646130007847 -0.0296325555000352 -572.264462942235 -257.422369998481 5569.50131946397 -1148.37280593871 -1148.28983206842 524.842088868182 506.471767814351 -0.270084333041855 0.921422175909385 -1.98786322802333 0.00030561961022116 -0.00177413481875492]</item>
+         <item>[1.29890003039954 -3.53443855095287 0.0180635475232961 168.91062008383 -459.090221760812 4414.14503784071 -1147.42130386403 -1146.70191361455 517.627720083163 495.198446371075 -0.279838094294174 1.53420974680945 -5.39731331365357 0.00210677300668708 5.60568333718785e-05]</item>
+         <item>[1.77826106048258 -0.422847895549232 0.0656990158309942 148.236904512862 -564.857958160581 5556.48649723302 -1145.62853638344 -1145.3869870725 501.645333398895 509.863861206915 -0.196938673162298 -0.106804515548495 2.00975793335479 0.00181045908036264 0.00235616558412036]</item>
+         <item>[4.47568146861721 -0.397502156698313 -0.101901577938181 112.124073329884 372.764574813245 5753.76000190837 1147.51474422972 1145.37495338709 499.129372238455 512.745585898012 -0.152156605011913 -0.556372365259217 4.05922351385726 -0.000772324354014956 -0.00228265055227991]</item>
+         <item>[1.800785611417 0.391724062196197 -0.0271694788248257 -568.460487550323 -287.221651791489 5599.36969544715 -1151.15771415315 -1150.98684910361 517.95040416786 499.537270315538 -0.335534483122045 2.38153794064266 -10.0543200654766 0.00113778123266121 -0.000431220812915794]</item>
+         <item>[1.29107692961035 -3.53727130570822 0.0235014204619093 119.306978804804 -428.002176998867 4421.11060693738 -1146.65595143401 -1146.62772727904 520.297101479618 502.970128720007 -0.230246466112802 0.54118945805648 -0.910206671077528 0.00015304526965099 -0.000244882985627046]</item>
+      </projectionParams>
+   </dbcameras>
+   <actionnames>
+      <item>Miscellaneous</item>
+      <item>Directions</item>
+      <item>Discussion</item>
+      <item>Eating</item>
+      <item>Greeting</item>
+      <item>Phoning</item>
+      <item>Posing</item>
+      <item>Purchases</item>
+      <item>Sitting</item>
+      <item>SittingDown</item>
+      <item>Smoking</item>
+      <item>TakingPhoto</item>
+      <item>Waiting</item>
+      <item>Walking</item>
+      <item>WalkingDog</item>
+      <item>WalkingTogether</item>
+   </actionnames>
+   <subject_measurements>[83.7952 -192.839 927.919 73.3597 -167.696 485.862 81.059 -100.34 36.7434 70.4837 -262.07 21.7499 66.3629 -336.642 28.6076 -181.375 -201.548 945.422 -158.609 -149.012 506.244 -150.359 -63.9818 60.1439 -167.542 -221.154 21.4817 -176.513 -295.222 29.1216 -48.7178 -197.462 937.631 -56.2841 -165.853 1168.74 -52.9445 -177.096 1425.55 -59.9845 -237.001 1530.6 -48.9816 -144.196 1597.62 -52.9445 -177.096 1425.55 79.0483 -170.024 1352.48 144.663 -124.419 1085.29 199.003 -113.414 839.738 199.003 -113.414 839.738 142.879 -184.627 797.563 229.006 -83.4289 749.18 -52.9445 -177.096 1425.55 -184.015 -163.674 1351.72 -256.136 -105.407 1088.69 -314.757 -93.4353 844.175 -314.757 -93.4353 844.175 -258.668 -171.343 816.168 -338.053 -62.7578 712.181;162.628 -591.729 923.291 212.43 -647.333 495.463 263.091 -486.604 79.541 299.286 -628.862 42.0324 310.534 -701.442 57.2195 -90.7194 -610.719 936.076 -70.2251 -585.113 503.025 -52.8454 -473.507 68.7055 -83.6436 -614.437 22.3974 -104.218 -685.436 35.0785 36.0202 -601.445 930.657 38.1865 -579.718 1175.6 19.9371 -628.346 1418.57 29.0904 -680.925 1494.43 30.555 -647.974 1604.6 19.9371 -628.346 1418.57 143.57 -617.415 1404.76 399.536 -589.313 1370.61 644.532 -595.584 1355.49 644.532 -595.584 1355.49 678.847 -685.931 1381.18 723.756 -553.052 1399.25 19.9371 -628.346 1418.57 -101.222 -601.399 1404.79 -347.18 -559.277 1332.65 -590.617 -574.22 1304.26 -590.617 -574.22 1304.26 -626.591 -665.295 1324.54 -717.653 -522.235 1312.38;111.729 -768.968 968.25 153.777 -766.37 514.002 179.839 -679.324 74.9058 233.084 -841.402 38.736 252.176 -910.829 59.7218 -157.822 -780.403 978.27 -160.768 -777.065 522.095 -159.37 -673.324 85.8642 -241.775 -820.858 42.7859 -281.682 -883.103 55.3564 -23.0101 -774.672 974.259 -48.4347 -756.071 1232.24 -44.873 -725.221 1482.35 -54.6105 -786.669 1574.99 -68.7113 -737.616 1678.04 -44.873 -725.221 1482.35 104.669 -717.632 1473.28 390.892 -725.961 1461.8 625.023 -816.307 1501.72 625.023 -816.307 1501.72 638.671 -909.794 1534.49 713.942 -790.163 1539.27 -44.873 -725.221 1482.35 -192.202 -710.184 1458.46 -477.609 -706.558 1432.88 -725.527 -758.628 1452.84 -725.527 -758.628 1452.84 -733.015 -839.015 1511.85 -852.54 -720.289 1488.95;211.01 -310.605 997.369 214.902 -249.63 524.597 204.583 -127.274 85.6899 247.109 -277.999 37.1397 262.941 -349.686 52.481 -56.7731 -280.674 1018.24 -53.9054 -267.533 541.726 -63.6863 -151.167 101.181 -79.3021 -303.943 43.7404 -87.6049 -378.423 46.7003 77.1751 -295.819 1008.79 50.5353 -263.144 1243.29 45.508 -238.454 1497.12 50.0705 -355.792 1560.97 46.4056 -309.891 1666.35 45.508 -238.454 1497.12 199.306 -221.271 1462.42 474.319 -231.587 1431.85 722.916 -280.17 1445.67 722.916 -280.17 1445.67 741.634 -373.556 1476.14 819.365 -256.814 1458 45.508 -238.454 1497.12 -109.857 -237.158 1465.29 -370.477 -201.248 1378.91 -618.47 -250.237 1400.15 -618.47 -250.237 1400.15 -625.568 -344.776 1431.96 -755.548 -242.448 1392.71;267.213 478.131 929.126 260.777 500.13 501.454 253.185 561.893 63.4077 289.281 422.844 33.4715 316.167 356.976 57.2102 29.0733 483.662 943.178 65.8695 518.549 517.904 101.543 608.245 86.1183 50.571 480.822 34.1642 15.1281 415.901 46.572 148.197 480.707 937.132 154.121 474.963 1161.2 146.162 512.239 1412.38 145.379 417.318 1480.98 138.946 486.521 1572.6 146.162 512.239 1412.38 278.524 521.742 1358.84 542.252 504.119 1346.92 788.243 469.063 1355.38 788.243 469.063 1355.38 797.456 379.128 1398.12 882.984 490.191 1379.41 146.162 512.239 1412.38 14.4987 523.637 1357.5 -239.847 559.739 1294.18 -488.011 574.683 1292.34 -488.011 574.683 1292.34 -540.296 498.244 1330.07 -605.199 640.26 1262.8;-196.137 1803.64 1025 -169.998 1883.71 545.782 -145.071 1958.99 91.1522 -96.0761 1810.3 42.3601 -72.4323 1739.64 33.7982 -476.703 1847.13 1052.22 -453.956 1898.9 568.946 -435.282 1991.53 117.23 -490.653 1856.84 41.8503 -520.715 1791.32 21.1655 -336.319 1825.41 1039.6 -338.853 1934.84 1277.77 -341.55 1887.83 1533.48 -330.56 1821.62 1632.23 -337.357 1891.16 1723.57 -341.55 1887.83 1533.48 -210.976 1871.91 1462.7 -81.4274 1870.4 1191 -64.939 1782.29 949.164 -64.939 1782.29 949.164 -140.023 1716.54 955.415 -39.4612 1744.73 860.058 -341.55 1887.83 1533.48 -468.887 1919.02 1461.89 -566.197 1954.79 1179.3 -608.791 1873.74 938.185 -608.791 1873.74 938.185 -587.396 1779.61 964.293 -644.446 1830.79 812.528;144.978 1318.17 936.43 135.414 1299.85 488.292 168.993 1415.34 67.1198 172.521 1256.57 36.96 180.082 1182.14 42.2805 -125.258 1341.87 920.334 -87.4705 1316.31 474.045 -77.2437 1460.4 60.5399 -113.003 1305.82 29.571 -139.608 1235.85 34.2336 9.80237 1330.04 929.38 -5.30904 1402.72 1143 -1.60668 1390.33 1398.08 -24.6863 1304.2 1457.49 -24.4224 1361.78 1557.04 -1.60668 1390.33 1398.08 121.893 1392.19 1332.77 205.926 1390.13 1070.34 225.371 1313.21 836.114 225.371 1313.21 836.114 181.959 1223.14 837.778 267.551 1291.25 748.143 -1.60668 1390.33 1398.08 -120.722 1409.19 1327.54 -182.023 1427.39 1059.49 -217.4 1355.06 825.667 -217.4 1355.06 825.667 -216.868 1256.05 839.718 -237.272 1335.84 690.976;347.892 156.861 971.874 356.569 175.611 520.2 359.953 247.043 87.4354 378.559 91.6378 41.7489 379.103 20.9322 66.7573 55.8523 138.773 988.435 52.9393 168.177 537.254 40.9843 245.448 105.646 46.8314 93.0269 48.0454 45.7396 18.569 56.9804 201.937 147.686 981.144 206.251 155.446 1242.11 207.25 143.758 1492.86 212.87 72.0954 1589.52 198.38 99.1885 1700.34 207.25 143.758 1492.86 370.741 187.766 1494.28 656.044 224.275 1458 896.239 182.655 1472.02 896.239 182.655 1472.02 910.482 88.3756 1502.16 983.928 208.799 1512.36 207.25 143.758 1492.86 42.5483 179.009 1475.58 -231.492 239.806 1403.11 -473.958 213.727 1390.75 -473.958 213.727 1390.75 -485.532 115.774 1407.22 -607.246 234.016 1417.75;32.5528 -145.321 975.404 41.4143 -132.617 503.464 62.2533 -27.3745 47.2863 65.6484 -182.956 32.3057 67.6419 -257.895 34.5821 -211.922 -116.137 1006.3 -226.624 -99.0295 534.646 -238.477 6.85334 78.2941 -272.208 -141.494 42.2845 -289.036 -213.433 29.3729 -89.5758 -130.86 991.838 -84.6488 -122.102 1247.83 -79.5886 -99.6856 1497.13 -87.7546 -147.277 1607.59 -81.2425 -92.0184 1708.23 -79.5886 -99.6856 1497.13 102.776 -82.0545 1491.81 394.931 -94.955 1444.01 626.952 -185.146 1437.65 626.952 -185.146 1437.65 602.741 -281.07 1452.22 721.041 -204.692 1465.31 -79.5886 -99.6856 1497.13 -259.056 -64.3267 1485.41 -550.518 -38.2958 1438.74 -793.7 -91.1858 1430.16 -793.7 -91.1858 1430.16 -777.238 -188.745 1444.69 -926.648 -109.128 1460.31;385.001 -138.3 949.285 437.419 -105.467 490.794 470.71 44.1 53.8452 498.337 -103.281 42.4876 511.013 -176.482 32.1952 114.232 -139.595 975.816 84.8315 -120.79 514.489 56.2185 17.583 73.5399 32.7165 -127.327 40.954 18.5499 -200.763 35.3328 249.714 -138.884 963.544 243.731 -138.253 1177.74 242.607 -100.741 1434.24 242.486 -178.425 1499.06 243.931 -94.3331 1577.49 242.607 -100.741 1434.24 364.533 -73.539 1346.23 613.928 2.9863 1342 863.69 10.8466 1369.25 863.69 10.8466 1369.25 911.615 -76.8122 1373.63 939.563 54.7298 1417.39 242.607 -100.741 1434.24 106.69 -102.025 1364.42 -134.285 -33.4301 1291.63 -383.533 -58.0592 1312.94 -383.533 -58.0592 1312.94 -413.256 -151.244 1333.75 -500.843 -8.96304 1365.23;-329.689 553.356 971.208 -326.576 561.938 509.358 -345.684 683.593 65.9159 -325.965 522.854 40.7729 -320.016 450.444 59.382 -604.047 576.86 994.687 -616.778 561.396 533.181 -596.284 688.294 91.273 -631.3 533.134 51.8105 -651.05 462.012 65.096 -466.799 564.934 983.93 -467.29 563.99 1238.21 -457.52 569.749 1487.9 -471.289 494.804 1568.73 -471.407 530.064 1678.19 -457.52 569.749 1487.9 -291.636 580.427 1482.04 -12.476 566.623 1436.59 207.647 452.255 1447.74 207.647 452.255 1447.74 190.78 353.689 1447.31 293.359 437.376 1497.05 -457.52 569.749 1487.9 -623.74 575.211 1485.26 -893.711 604.149 1404.86 -1128.84 524.953 1414.99 -1128.84 524.953 1414.99 -1121.78 430.549 1447.21 -1262.01 526.663 1449.18]</subject_measurements>
+</a>
