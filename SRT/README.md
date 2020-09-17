@@ -11,7 +11,7 @@ We present Supervision by Registration and Triangulation (SRT), an unsupervised 
 
 - Python 3.7
 - PyTorch >= 1.0 
-- torchvision 0.2.1
+- torchvision >= 0.2.1
 - tqdm
 - OpenCV 3.4
 - accimage or PIL
