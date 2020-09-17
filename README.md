@@ -20,7 +20,7 @@ The training and testing codes for [Supervision-by-Registration (CVPR 2018)](htt
 
 The model codes for [Teacher Supervises Students (TS3) (ICCV 2019)](https://arxiv.org/abs/1908.02116) are located in the [TS3 directory](https://github.com/D-X-Y/landmark-detection/tree/master/TS3).
 
-# Supervision by Registration and Triangulation for Landmark Detection
+## Supervision by Registration and Triangulation for Landmark Detection
 
 The training and testing codes for [SRT (TPAMI) 2020](https://ieeexplore.ieee.org/document/9050873) are located in the [SRT directory](https://github.com/D-X-Y/landmark-detection/tree/master/SRT).
 
