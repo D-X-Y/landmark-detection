@@ -11,6 +11,7 @@ from utils.file_utils import load_txt_file
 import numpy as np
 import copy, math
 
+
 def pil_loader(path, use_gray=False):
   # open path as file to avoid ResourceWarning (https://github.com/python-pillow/Pillow/issues/835)
   with open(str(path), 'rb') as f:

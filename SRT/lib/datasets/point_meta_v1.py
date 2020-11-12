@@ -7,10 +7,28 @@
 from PIL import Image
 from scipy.ndimage.interpolation import zoom
 from utils.file_utils import load_txt_file
-from .dataset_utils import convert68to49 as _convert68to49
-from .dataset_utils import convert68to51 as _convert68to51
 import numpy as np
 import copy, math
+
+
+def _convert68to49(points):
+  points = points.copy()
+  assert len(points.shape) == 2 and (points.shape[0] == 3 or points.shape[0] == 2) and points.shape[1] == 68, 'The shape of points is not right : {}'.format(points.shape)
+  out = np.ones((68,)).astype('bool')
+  out[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,60,64]] = False
+  cpoints = points[:, out]
+  assert len(cpoints.shape) == 2 and cpoints.shape[1] == 49
+  return cpoints
+
+
+def _convert68to51(points):
+  points = points.copy()
+  assert len(points.shape) == 2 and (points.shape[0] == 3 or points.shape[0] == 2) and points.shape[1] == 68, 'The shape of points is not right : {}'.format(points.shape)
+  out = np.ones((68,)).astype('bool')
+  out[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]] = False
+  cpoints = points[:, out]
+  assert len(cpoints.shape) == 2 and cpoints.shape[1] == 51
+  return cpoints
 
 
 class Point_Meta():
@@ -19,7 +37,9 @@ class Point_Meta():
   def __init__(self, num_point, points, box, image_path, dataset_name):
 
     self.num_point = num_point
-    assert len(box.shape) == 1 and box.shape[0] == 4, 'The shape of box is not right : {}'.format( box )
+    if isinstance(box, (tuple, list)):
+      box = np.array(box)
+    assert len(box.shape) == 1 and box.shape[0] == 4, 'The shape of box is not right : {}'.format(box)
     self.box = box.copy()
     if points is None:
       self.points = points
@@ -94,6 +114,7 @@ class Point_Meta():
       self.points[0, self.points[2,:]>0] = (vis_xs - center[0]) * np.cos(degree) - (vis_ys - center[1]) * np.sin(degree) + center[0]
       self.points[1, self.points[2,:]>0] = (vis_xs - center[0]) * np.sin(degree) + (vis_ys - center[1]) * np.cos(degree) + center[1]
     # rotate the box
+    print('---PRE : {:}'.format(self.box))
     corners = np.zeros((4,2))
     corners[0,0], corners[0,1] = self.box[0], self.box[1]
     corners[1,0], corners[1,1] = self.box[0], self.box[3]
@@ -103,6 +124,7 @@ class Point_Meta():
     corners[:, 1] = (corners[:, 0] - center[0]) * np.sin(degree) + (corners[:, 1] - center[1]) * np.cos(degree) + center[1]
     self.box[0], self.box[1] = corners[0,0], corners[0,1]
     self.box[2], self.box[3] = corners[3,0], corners[3,1]
+    print('---AFT : {:}'.format(self.box))
     
   def apply_horizontal_flip(self, width):
     self.points[0, :] = width - self.points[0, :] - 1
@@ -138,11 +160,11 @@ class Point_Meta():
   def get_box(self):
     return self.box.copy()
 
-  def get_points(self):
-    if self.points is not None:
-      return self.points.copy()
-    else:
-      return np.zeros((3, self.num_point), dtype='float32')
+  def get_points(self, ignore_indicator=False):
+    if ignore_indicator: last = 2
+    else               : last = 3
+    if self.points is not None: return self.points.copy()[:last, :]
+    else                      : return torch.zeros((last, self.num_point))
 
   def is_none(self):
     assert self.box is not None, 'The box should not be None'

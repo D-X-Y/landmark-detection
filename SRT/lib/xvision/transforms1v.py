@@ -20,6 +20,7 @@ else:
 
 
 class Compose(object):
+
   def __init__(self, transforms):
     self.transforms = transforms
 

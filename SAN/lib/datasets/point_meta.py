@@ -98,7 +98,7 @@ class Point_Meta():
     corners[2,0], corners[2,1] = self.box[2], self.box[1]
     corners[3,0], corners[3,1] = self.box[2], self.box[3]
     corners[:, 0] = (corners[:, 0] - center[0]) * np.cos(degree) - (corners[:, 1] - center[1]) * np.sin(degree) + center[0]
-    corners[:, 1] = (corners[:, 0] - center[0]) * np.sin(degree) - (corners[:, 1] - center[1]) * np.cos(degree) + center[1]
+    corners[:, 1] = (corners[:, 0] - center[0]) * np.sin(degree) + (corners[:, 1] - center[1]) * np.cos(degree) + center[1]
     self.box[0], self.box[1] = corners[0,0], corners[0,1]
     self.box[2], self.box[3] = corners[3,0], corners[3,1]
     
