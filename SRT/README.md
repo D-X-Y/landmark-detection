@@ -1,4 +1,4 @@
-# Supervision by Registration and Triangulation for Landmark Detection
+# [Supervision by Registration and Triangulation for Landmark Detection](https://xuanyidong.com/resources/papers/TPAMI-20-SRT.pdf)
 By Xuanyi Dong, Yi Yang, Shih-En Wei, Xinshuo Weng, Yaser Sheikh, Shoou-I Yu
 
 University of Technology Sydney, Facebook Reality Labs
