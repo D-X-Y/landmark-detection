@@ -4,6 +4,9 @@
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 #
+# For the regression-based detector:
+# python exps/BASE-eval-image.py --image ./cache_data/cache/self.jpeg --face 250 150 900 1100 --model ${check_point_path}
+#
 from __future__ import division
 
 import sys, time, torch, random, argparse, PIL
@@ -25,19 +28,23 @@ def evaluate(args):
     assert torch.cuda.is_available(), 'CUDA is not available.'
     torch.backends.cudnn.enabled   = True
     torch.backends.cudnn.benchmark = True
+    print ('Use the GPU mode')
   else:
     print ('Use the CPU mode')
 
   print ('The image is {:}'.format(args.image))
   print ('The model is {:}'.format(args.model))
-  last_info = Path(args.model)
-  assert last_info.exists(), 'The model path {:} does not exist'.format(last_info)
-  last_info = torch.load(last_info, map_location=torch.device('cpu'))
-  snapshot  = last_info['last_checkpoint']
-  assert snapshot.exists(), 'The model path {:} does not exist'.format(snapshot)
-  print ('The face bounding box is {:}'.format(args.face))
-  assert len(args.face) == 4, 'Invalid face input : {:}'.format(args.face)
-  snapshot  = torch.load(snapshot, map_location=torch.device('cpu'))
+  last_info_or_snap = Path(args.model)
+  assert last_info_or_snap.exists(), 'The model path {:} does not exist'.format(last_info)
+  last_info_or_snap = torch.load(last_info_or_snap, map_location=torch.device('cpu'))
+  if 'last_checkpoint' in last_info_or_snap:
+    snapshot = last_info_or_snap['last_checkpoint']
+    assert snapshot.exists(), 'The model path {:} does not exist'.format(snapshot)
+    print ('The face bounding box is {:}'.format(args.face))
+    assert len(args.face) == 4, 'Invalid face input : {:}'.format(args.face)
+    snapshot = torch.load(snapshot, map_location=torch.device('cpu'))
+  else:
+    snapshot = last_info_or_snap
 
   param = snapshot['args']
   # General Data Argumentation
@@ -53,10 +60,11 @@ def evaluate(args):
                                           transforms.CenterCrop(param.crop_max)])
 
   model_config = load_configure(param.model_config, None)
-  dataset = Dataset(eval_transform, param.sigma, model_config.downsample, param.heatmap_type, (120, 96), param.use_gray, None, param.data_indicator)
-  #dataset = Dataset(eval_transform, param.sigma, model_config.downsample, param.heatmap_type, (param.height,param.width), param.use_gray, None, param.data_indicator)
+  # dataset = Dataset(eval_transform, param.sigma, model_config.downsample, param.heatmap_type, (120, 96), param.use_gray, None, param.data_indicator)
+  dataset = Dataset(eval_transform, param.sigma, model_config.downsample, param.heatmap_type, (param.height, param.width), param.use_gray, None, param.data_indicator)
   dataset.reset( param.num_pts )
-  net = obtain_pro_model(model_config, param.num_pts + 1, param.sigma, param.use_gray)
+  net = obtain_pro_model(model_config, param.num_pts, param.sigma, param.use_gray)
+  net.eval()
   net.load_state_dict( remove_module_dict(snapshot['state_dict']) )
   if args.cuda: net = net.cuda()
   print ('Processing the input face image.')
@@ -64,26 +72,23 @@ def evaluate(args):
   face_img  = pil_loader(args.image, dataset.use_gray)
   affineImage, heatmaps, mask, norm_trans_points, transthetas, _, _, _, shape = dataset._process_(face_img, face_meta, -1)
 
-  #import cv2; cv2.imwrite('temp.png', transforms.ToPILImage(normalize, False)(affineImage))
   # network forward
   with torch.no_grad():
     if args.cuda: inputs = affineImage.unsqueeze(0).cuda()
     else        : inputs = affineImage.unsqueeze(0)
-  
-    _, _, batch_locs, batch_scos = net(inputs)
-    batch_locs, batch_scos = batch_locs.cpu(), batch_scos.cpu()
+ 
+    batch_locs = net(inputs)
+    batch_locs = batch_locs.cpu()
     (batch_size, C, H, W), num_pts = inputs.size(), param.num_pts
-    locations, scores = batch_locs[0, :-1, :], batch_scos[:, :-1]
-    norm_locs = normalize_points((H,W), locations.transpose(1,0))
+    norm_locs = normalize_points((H,W), batch_locs.view(num_pts, 2).transpose(1,0))
     norm_locs = torch.cat((norm_locs, torch.ones(1, num_pts)), dim=0)
     transtheta = transthetas[:2,:]
     norm_locs = torch.mm(transtheta, norm_locs)
     real_locs = denormalize_points(shape.tolist(), norm_locs)
-    real_locs = torch.cat((real_locs, scores), dim=0)
   print ('the coordinates for {:} facial landmarks:'.format(param.num_pts))
   for i in range(param.num_pts):
     point = real_locs[:, i]
-    print ('the {:02d}/{:02d}-th landmark : ({:.1f}, {:.1f}), score = {:.2f}'.format(i, param.num_pts, float(point[0]), float(point[1]), float(point[2])))
+    print ('the {:02d}/{:02d}-th landmark : ({:.1f}, {:.1f})'.format(i, param.num_pts, float(point[0]), float(point[1])))
 
   if args.save:
     resize = 512
