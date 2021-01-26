@@ -47,6 +47,8 @@ If this project helps your research, please cite the following papers:
   title={Teacher Supervises Students How to Learn from Partially Labeled Images for Facial Landmark Detection},
   author={Dong, Xuanyi and Yang, Yi},
   booktitle={Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+  pages={783--792},
+  doi={10.1109/ICCV.2019.00087},
   year={2019}
 }
 @inproceedings{dong2020srt,
