@@ -23,6 +23,7 @@ from xvision import normalize_points, denormalize_points
 from models import obtain_pro_model, remove_module_dict
 from config_utils import load_configure
 
+
 def evaluate(args):
   if args.cuda:
     assert torch.cuda.is_available(), 'CUDA is not available.'
@@ -65,7 +66,10 @@ def evaluate(args):
   dataset.reset( param.num_pts )
   net = obtain_pro_model(model_config, param.num_pts, param.sigma, param.use_gray)
   net.eval()
-  net.load_state_dict( remove_module_dict(snapshot['state_dict']) )
+  try:
+    net.load_state_dict( snapshot['detector'] )
+  except:
+    net.load_state_dict( remove_module_dict(snapshot['detector']) )
   if args.cuda: net = net.cuda()
   print ('Processing the input face image.')
   face_meta = PointMeta(dataset.NUM_PTS, None, args.face, args.image, 'BASE-EVAL') 
@@ -80,11 +84,9 @@ def evaluate(args):
     batch_locs = net(inputs)
     batch_locs = batch_locs.cpu()
     (batch_size, C, H, W), num_pts = inputs.size(), param.num_pts
-    norm_locs = normalize_points((H,W), batch_locs.view(num_pts, 2).transpose(1,0))
-    norm_locs = torch.cat((norm_locs, torch.ones(1, num_pts)), dim=0)
-    transtheta = transthetas[:2,:]
-    norm_locs = torch.mm(transtheta, norm_locs)
-    real_locs = denormalize_points(shape.tolist(), norm_locs)
+    norm_locs = torch.cat((batch_locs[0].transpose(1,0), torch.ones(1, num_pts)), dim=0)
+    norm_locs = torch.mm(transthetas[:2, :], norm_locs)
+    real_locs  = denormalize_points(shape.tolist(), norm_locs)
   print ('the coordinates for {:} facial landmarks:'.format(param.num_pts))
   for i in range(param.num_pts):
     point = real_locs[:, i]

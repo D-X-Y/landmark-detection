@@ -14,6 +14,8 @@ from .ProTemporal_HEAT import TemporalHEAT
 from .ProTemporal_REG  import TemporalREG
 from .STM_REG  import SpatialTemporalMultiviewREG
 from .STM_HEAT import SpatialTemporalMultiviewHEAT
+
+
 """
 def obtain_model(configure, points):
   from .cpm_vgg16 import cpm_vgg16
